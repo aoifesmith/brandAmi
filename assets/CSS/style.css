@@ -65,7 +65,7 @@ body {
     background-color: var(--sand);
 }
 
-.footer>* {
+.footer > * {
     flex: 1 100%;
 }
 
@@ -166,3 +166,20 @@ h2 {
         text-align: left;
     }
 }
+
+
+/* Responsive styling to make footer link sections align on top of each other when being viewed on smaller mobile devices*/
+@media screen and (min-width: 600px) {
+    .footer-right > * {
+      flex: 1;
+    }
+  
+    .footer-left {
+      flex: 1 0px;
+    }
+  
+    .footer-right {
+      flex: 1 0px;
+    }
+  } 
+  
