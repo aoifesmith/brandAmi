@@ -9,6 +9,7 @@
   --navy: #364a62;
   --midnight-blue: #271f30;
   --light-grey: #efece1;
+  --black: #111;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
   
   .topnav a:hover {
     background-color: var(--light-grey);
-    color: black;
+    color: var(--black);
   }
   
   .topnav a.active {
