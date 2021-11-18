@@ -108,6 +108,29 @@ h2 {
   .f-box a {
     color: var(--midnight-blue);
   }
+  .footer-bottom {
+    text-align: center;
+    color: var(--midnight-blue);
+  }
+  .footer-left p {
+    padding-right: 20%;
+    text-align: justify;
+    color: var(--midnight-blue);
+  }
+  .socials a {
+    background: var(--navy);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 25%;
+  }
+  
+  .socials a i {
+    color: var(--light-grey);
+    padding: 10px 10px;
+    font-size: 20px;
+  }
 /* end footer styling */
 
 
