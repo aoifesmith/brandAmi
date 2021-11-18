@@ -51,4 +51,34 @@ body {
     display: none;
   }
   /* end nav styling*/
+
+
+
+  /* begin media styling for tablets and mobile devices*/
+@media screen and (max-width: 600px) {
+    /* Hide the nav links as hamburger icon displays for tablets and mobile */
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+    /* Display hamburger icon for tablet and mobile instead of nav menu links*/
+    .topnav a.burger {
+      float: right;
+      display: block;
+    }
+      /* Position hamburger icon that displays for tablet and mobile on top right 
+    hand side instead of default position below nav menu links when open*/
+    .topnav.responsive {
+      position: relative;
+    }
+    .topnav.responsive .burger {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
   
