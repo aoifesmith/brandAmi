@@ -54,6 +54,57 @@ body {
 /* end nav styling*/
 
 
+ /* start modal styling */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(247,227,157, 0.473); /* Black w/ opacity */ 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: var(--navy);
+    margin: auto;
+    padding: 20px;
+    border: 2px solid var(--yellow);;
+    width: 80%;
+    line-height: 180%;
+    border-radius: 25px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: var(--yellow-light);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: var(--yellow);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  li {
+    color: var(--greige)
+  }
+  /* end modal styling */
+
+
+
+
+
+
+
 /* begin footer styling */
 .footer {
     display: flex;
