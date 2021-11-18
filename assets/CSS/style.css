@@ -51,12 +51,10 @@ body {
 .topnav .burger {
     display: none;
 }
-
 /* end nav styling*/
 
 
 /* begin footer styling */
-
 .footer {
     display: flex;
     flex-flow: row wrap;
