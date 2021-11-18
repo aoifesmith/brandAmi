@@ -1,15 +1,15 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
-  --yellow: #ffce24;
-  --sand: #f7e39d;
-  --yellow-light: #f7f46c;
-  --greige: #fffbee;
-  --navy: #364a62;
-  --midnight-blue: #271f30;
-  --light-grey: #efece1;
-  --black: #111;
+    box-sizing: border-box;
+    --yellow: #ffce24;
+    --sand: #f7e39d;
+    --yellow-light: #f7f46c;
+    --greige: #fffbee;
+    --navy: #364a62;
+    --midnight-blue: #271f30;
+    --light-grey: #efece1;
+    --black: #111;
 }
 
 body {
@@ -18,15 +18,15 @@ body {
     display: grid;
     font-size: 14px;
     background-color: var(--greige);
-  }
+}
 
-  /* begin nav styling*/
+/* begin nav styling*/
 .topnav {
     overflow: hidden;
     background-color: var(--sand);
-  }
-  
-  .topnav a {
+}
+
+.topnav a {
     float: left;
     display: block;
     color: var(--midnight-blue);
@@ -34,52 +34,82 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  .topnav a:hover {
+}
+
+.topnav a:hover {
     background-color: var(--light-grey);
     color: var(--black);
-  }
-  
-  .topnav a.active {
+}
+
+.topnav a.active {
     background-color: var(--yellow);
     color: var(--midnight-blue);
     font-size: 125%;
     font-weight: 900;
-  }
-  
-  .topnav .burger {
+}
+
+.topnav .burger {
     display: none;
-  }
-  /* end nav styling*/
+}
+
+/* end nav styling*/
 
 
+/* begin footer styling */
 
-  /* begin media styling for tablets and mobile devices*/
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: var(--navy);
+    background-color: var(--sand);
+}
+
+.footer>* {
+    flex: 1 100%;
+}
+
+.footer-left {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-left img {
+    width: 50%;
+}
+
+/* end footer styling */
+
+
+/* begin media styling for tablets and mobile devices*/
 @media screen and (max-width: 600px) {
+
     /* Hide the nav links as hamburger icon displays for tablets and mobile */
     .topnav a:not(:first-child) {
-      display: none;
+        display: none;
     }
+
     /* Display hamburger icon for tablet and mobile instead of nav menu links*/
     .topnav a.burger {
-      float: right;
-      display: block;
+        float: right;
+        display: block;
     }
-      /* Position hamburger icon that displays for tablet and mobile on top right 
+
+    /* Position hamburger icon that displays for tablet and mobile on top right 
     hand side instead of default position below nav menu links when open*/
     .topnav.responsive {
-      position: relative;
+        position: relative;
     }
+
     .topnav.responsive .burger {
-      position: absolute;
-      right: 0;
-      top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
+
     .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
+        float: none;
+        display: block;
+        text-align: left;
     }
-  }
-  
+}
