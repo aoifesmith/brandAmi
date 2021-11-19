@@ -71,7 +71,7 @@ var criteria_qs = {
     "question": "Unfortunately you need to be a resident of Ireland to apply.",
   },
   "5_b": {
-    "question": "Unfortunately you need to sell your soul to the devil for this kind of work. Change your ways and come over to the dark side. We'll make it worth your will. Sure we promise don't we!!!",
+    "question": "Unfortunately you need to sell your soul to the devil for this kind of work. Change your ways and come over to the dark side. We'll make it worth your while. Sure we promise don't we!!!",
   },
 };
 
