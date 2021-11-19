@@ -10,13 +10,13 @@ function navFunction() {
   }
 }
 
-let criteria = 0; // keeps criteria from being undefined 
-let form = document.getElementById('appForm'); // get the element with matching ids
-let submit = document.getElementById('continueButton');
-let reset = document.getElementById('resetButton');
-let response = '';
+var criteria = 0; // keeps criteria from being undefined 
+var form = document.getElementById('appForm'); // get the element with matching ids
+var submit = document.getElementById('continueButton');
+var reset = document.getElementById('resetButton');
+var response = '';
 
-let criteria_qs = {
+var criteria_qs = {
   "start": {
     "question": "Success sign in!. Please answer below questions:" + 'Q1/5: Are you over 18 years of age?',
     "answers": {
