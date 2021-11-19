@@ -18,7 +18,7 @@ var response = '';
 
 var criteria_qs = {
   "start": {
-    "question": "Success sign in!. Please answer below questions:" + 'Q1/5: Are you over 18 years of age?',
+    "question": "Success sign in! Please answer below questions:" + '<br/>' + '<br/>' + 'Q1/5: Are you over 18 years of age?',
     "answers": {
       "a": "Yes, I am over 18",
       "b": "No, I am under 18"

@@ -121,7 +121,7 @@ li {
 /* end modal styling */
 
 
-/* styling for apply area */
+/* styling for apply area labels and fields */
 form div input {
     width: 100%;
     height: 40px;
@@ -135,7 +135,6 @@ form div input {
 label {
     display: block;
     margin-bottom: 5px;
-    text-transform: uppercase;
 }
 
 form div {
@@ -148,7 +147,7 @@ input:focus {
 }
 
 
-/* start styling eligibility steps */
+/* start styling eligibility steps & apply form */
 .wrapper {
     width: 100%;
     height: 100%;
