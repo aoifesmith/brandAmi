@@ -148,7 +148,20 @@ li {
     border: none;
   }
 
-
+  form a.continue {    
+    font-size: 1.175em;
+    background-color: var(--light-grey);
+    color:var(--midnight-blue);
+    padding: .5em 1em;
+    text-decoration: none;
+    border-radius: 25px;
+  }
+  form a.continue:hover, form a.continue:focus {  
+    background-color: var(--yellow);
+  }
+  form a.continue {
+   float:right;
+  }
 
 
 /* begin footer styling */
