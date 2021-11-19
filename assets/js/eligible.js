@@ -17,5 +17,24 @@ function navFunction() {
   let response = '';
 
   let criteria_qs = {
+    "start": {
+      "question": "Success sign in!. Please answer below questions:" + 'Q1/5: Are you over 18 years of age?',
+      "answers": {
+        "a": "Yes, I am over 18", 
+        "b": "No, I am under 18"
+      }
+    },
+    "1_a": {
+      "question": 'Q2/5: How many IG followers do you have?',
+      "answers": {
+        "a": "5k+ IG followers", 
+        "b": "0-5k IG followers"
+      }
+    },
+
+    "1_b": {
+      "question": 'Unfortunately you do not qualify for this application. YOu need to be over 18.',
+    },
+
 
   };
