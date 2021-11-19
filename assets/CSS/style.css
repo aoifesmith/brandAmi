@@ -51,7 +51,6 @@ body {
 .topnav .burger {
     display: none;
 }
-
 /* end nav styling*/
 
 #error {
@@ -121,6 +120,7 @@ li {
 /* end modal styling */
 
 
+
 /* start styling eligibility steps */
 .wrapper {
     width: 100%;
@@ -149,7 +149,7 @@ form fieldset {
     border: none;
 }
 
-form a.continue {
+form a.continue, form .app-submit{
     font-size: 1.175em;
     background-color: var(--light-grey);
     color: var(--midnight-blue);
@@ -159,11 +159,11 @@ form a.continue {
 }
 
 form a.continue:hover,
-form a.continue:focus {
+form a.continue:focus, form .app-submit:hover, form .app-submit:focus{
     background-color: var(--yellow);
 }
 
-form a.continue {
+form a.continue, form .app-submit{
     float: right;
 }
 
