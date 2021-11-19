@@ -51,6 +51,7 @@ body {
 .topnav .burger {
     display: none;
 }
+
 /* end nav styling*/
 
 #error {
@@ -120,6 +121,33 @@ li {
 /* end modal styling */
 
 
+/* styling for apply area */
+form div input {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid var(--light-grey);
+    padding: 0 30px;
+    box-shadow: 2px 12px 15px var(--midnight-blue);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+form div {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border: 2px solid var(--yellow);
+}
+
+
 /* start styling eligibility steps */
 .wrapper {
     width: 100%;
@@ -148,7 +176,9 @@ form fieldset {
     border: none;
 }
 
-form a.continue, .app-submit, #myBtn{
+form a.continue,
+.app-submit,
+#myBtn {
     font-size: 1.175em;
     background-color: var(--light-grey);
     color: var(--midnight-blue);
@@ -158,7 +188,9 @@ form a.continue, .app-submit, #myBtn{
 }
 
 form a.continue:hover,
-form a.continue:focus, .app-submit:hover, .app-submit:focus {
+form a.continue:focus,
+.app-submit:hover,
+.app-submit:focus {
     background-color: var(--yellow);
 }
 
