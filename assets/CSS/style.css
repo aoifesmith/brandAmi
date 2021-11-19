@@ -122,58 +122,89 @@ li {
 
 
 /* start styling eligibility steps */
-.wrapper{
-    width:100%;
-    height:100%;
-    display:flex;
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  form {
+}
+
+form {
     max-width: 500px;
     height: 20rem;
     padding: 2em;
     background: linear-gradient(var(--greige), var(--navy));
-  }
-  
-  form p {
+}
+
+form p {
     margin-bottom: 18px;
     font-size: 1.175em;
     line-height: 20px;
-  }
-  form fieldset {
+}
+
+form fieldset {
     margin-bottom: 8px;
     padding: 0;
     border: none;
-  }
+}
 
-  form a.continue {    
+form a.continue {
     font-size: 1.175em;
     background-color: var(--light-grey);
-    color:var(--midnight-blue);
+    color: var(--midnight-blue);
     padding: .5em 1em;
     text-decoration: none;
     border-radius: 25px;
-  }
-  form a.continue:hover, form a.continue:focus {  
-    background-color: var(--yellow);
-  }
-  form a.continue {
-   float:right;
-  }
+}
 
-  button.reset-form{
+form a.continue:hover,
+form a.continue:focus {
+    background-color: var(--yellow);
+}
+
+form a.continue {
+    float: right;
+}
+
+button.reset-form {
     background-color: transparent;
     border: none;
     color: var(--light-grey);
     font-size: 20px;
     letter-spacing: .5px;
 }
-button.reset-form:hover{
-    color: var(--yellow); 
-}  
 
+button.reset-form:hover {
+    color: var(--yellow);
+}
+
+form label span {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 14px 12px;
+    border: 2px solid var(--midnight-blue);
+    background-color: var(--light-grey);
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+form label:hover span,
+form label:focus span {
+    border: 2px solid #DA966A;
+    background-color: #F5ECEE;
+    color: var(--midnight-blue);
+}
+
+form input[type=radio] {
+    visibility: hidden;
+}
+
+form input[type=radio]:checked+span {
+    background-color: var(--yellow-light);
+    color: var(--midnight-blue);
+}
 
 /* begin footer styling */
 .footer {
