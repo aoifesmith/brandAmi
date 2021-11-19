@@ -131,7 +131,7 @@ li {
 
 form {
     max-width: 500px;
-    height: 20rem;
+    height: 22rem;
     padding: 2em;
     background: linear-gradient(var(--greige), var(--navy));
 }
@@ -148,7 +148,7 @@ form fieldset {
     border: none;
 }
 
-form a.continue, .app-submit{
+form a.continue, .app-submit, #myBtn{
     font-size: 1.175em;
     background-color: var(--light-grey);
     color: var(--midnight-blue);
