@@ -163,6 +163,17 @@ li {
    float:right;
   }
 
+  button.reset-form{
+    background-color: transparent;
+    border: none;
+    color: var(--light-grey);
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+button.reset-form:hover{
+    color: var(--yellow); 
+}  
+
 
 /* begin footer styling */
 .footer {
