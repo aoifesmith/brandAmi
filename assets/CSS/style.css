@@ -120,6 +120,37 @@ li {
 
 /* end modal styling */
 
+
+/* start styling eligibility steps */
+.wrapper{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    max-width: 500px;
+    height: 20rem;
+    padding: 2em;
+    background: linear-gradient(var(--greige), var(--navy));
+  }
+  
+  form p {
+    margin-bottom: 18px;
+    font-size: 1.175em;
+    line-height: 20px;
+  }
+  form fieldset {
+    margin-bottom: 8px;
+    padding: 0;
+    border: none;
+  }
+
+
+
+
 /* begin footer styling */
 .footer {
     display: flex;
