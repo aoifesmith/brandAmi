@@ -345,6 +345,14 @@ h2 {
 
 
 /* begin media styling for tablets and mobile devices*/
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 900px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
 @media screen and (max-width: 600px) {
 
     /* Hide the nav links as hamburger icon displays for tablets and mobile */
