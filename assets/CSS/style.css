@@ -54,6 +54,10 @@ body {
 
 /* end nav styling*/
 
+video {
+    max-width: 100%;
+    height: auto;
+  }
 
 .flex-container {
     display: flex;
