@@ -54,6 +54,27 @@ body {
 
 /* end nav styling*/
 
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+  }
+  
+  .flex-item-left {
+    background-color: var(--light-grey);
+    padding: 20px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: var(--sand);
+    padding: 20px;
+    flex: 50%;
+  }
+
+
+
 #error {
     color: var(--greige);
     line-height: 200%;
