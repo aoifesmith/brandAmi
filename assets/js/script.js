@@ -52,7 +52,9 @@ form.addEventListener('submit', (e) => {
      if (userId.value.length != 4) {
       messages.push('UserId is 4 digits only!');
     }
-  
+    if (isNaN(userId.value)) {
+      messages.push('UserId must be digit!');
+    }  
     if (password.value.length <= 6) {
       messages.push('Password must be longer than 6 characters!');
     }
