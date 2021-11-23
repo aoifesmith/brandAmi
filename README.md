@@ -31,3 +31,17 @@ The website provides an application form which determines eligibility of applica
 5. As a user, I want to know whether I meet eligibility criteria.
 6. As a user, I want to be offered the opportunity to reset the application process. 
 7. As a user, I want to be provided with contact information for the site owner in case I want to reach out with any queries I have about the site.
+
+### The Scope Plane
+
+#### Features planned:
+* Header area with Navigation.
+* Hero image with information about the site.
+* Video of how to use the site.
+* Application Instructions - Clear instructions on how to traverse the application.
+* Apply Button.
+* Incorrect user input displayed.
+* Message advising where ineligible criteria selected.
+* Footer Items - Contact Information and links to social media profiles.
+
+### The Structure Plane
