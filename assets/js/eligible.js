@@ -95,7 +95,7 @@ function populateForm(criteria) {
   var current_criteria = criteria_qs[criteria]; // take values from criteria_qs criteria
   var text = '';
 
-  for (var prop in current_criteria['answers']) {
+  for (var prop in current_criteria.answers) {
     if (current_criteria['answers'].hasOwnProperty(prop)) { //method returns boolean (true or false)indicating if the object has specified property adding answers to the criteria
       text += '<label><input type="radio" name="response" value="' + prop + '"/><span>' + current_criteria['answers'][prop] + '</span></label>';
     }
