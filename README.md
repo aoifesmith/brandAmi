@@ -4,6 +4,7 @@ This website has been created as a second portfolio for the Code Institute's Ful
 ## User Experience Design
 
 ### The Strategy Plane
+The site should be intuitive to use. The site provides users with an eligibility checker form created using JavaScript, HTML & CSS. The eligibility checker should be easy to understand, simple to interactive with and give feedback to the user on inputs.
 #### Purpose
 #### How does it work?
 #### Site Goals:
