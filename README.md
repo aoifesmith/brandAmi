@@ -13,6 +13,14 @@ The site’s purpose is to check eligibility of candidates/applicants who want t
 The website provides an application form which determines eligibility of applicant to become a brand ambassador with brandAmi. The user inputs their data during the application process. The site responds to the users' actions, allowing users to actively engage with data, and alter the way the site displays the information to achieve their preferred goals.
 
 #### Site Goals:
+
 ##### External User Goals:
+* The site users want to find out about the services of the company brandAmi. 
+* An applicant wants to apply to become a brand ambassador with brandAmi.
+
 ##### Site Owner Goals:
+* To provide users with an eligibility checker to see if they qualify to become a brand ambassador within the brandAmi community.
+* To attain valid user information using defensive programming and ensure applicant can proceed with steps only after passing expected criteria.
+* Provide user instructions on how to use the application checker and confirm criteria needed to be a successful applicant. 
+
 #### User stories
