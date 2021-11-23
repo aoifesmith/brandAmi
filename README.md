@@ -135,3 +135,30 @@ text to be added
 #### Differences to Design
 All features listed in the Structure Plane were implemented as per design. A custom 404 page was added to the website that contains an link to allow the user to direct back to the home page if they try to access a page that is not available.
 
+
+
+
+
+
+## Deployment
+This project was created using [Gitpod](https://gitpod.io/) and deployed on [Github](https://github.com/). On occasion when there were server site issues with Gitpod or user interupted internet access VSCode on a local machine was used to progress. Code was copied and pasted to the project on Gitpod. The site was deployed to Github pages.
+
+### Repository Setup on GitHub
+Open GitHub in the browser.
+Sign in with username and password.
+Navigate to "Your repositories".
+The portfolio 2 site was initially created using the code-institute-full-template repository available from the Code Institute. Upon navigating to the template link the "Use this template" button was selected.
+
+Images 
+
+### Workspace on GitPod
+Enter the name of the Repository 
+Click green 'Create repository from template' button
+Wait while the repository is generated. 
+Click the green 'Gitpod' button
+Wait for IDE workspace to prepare.
+IDE opens up and ready to use Gitpod platform. 
+This workspace is used to create the required folders, files and code for the website and added all needed images.
+Git commands such as add, commit and push command were regularly implemented when working on Gitpod sending saved details to GitHub.
+
+Images 
