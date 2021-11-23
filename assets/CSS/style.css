@@ -11,6 +11,8 @@
     --navy: #364a62;
     --midnight-blue: #271f30;
     --light-grey: #efece1;
+    --dark-grey: #aaa;
+    --deep-grey: #404040;
     --black: #111;
 }
 
@@ -31,7 +33,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: var(--midnight-blue);
+    color: var(--deep-grey);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -45,7 +47,7 @@ body {
 
 .topnav a.active {
     background-color: var(--yellow);
-    color: var(--midnight-blue);
+    color: var(--deep-grey);
     font-size: 125%;
     font-weight: 900;
 }
@@ -84,8 +86,7 @@ video {
 #error {
     color: var(--greige);
     line-height: 200%;
-    border: var(--midnight-blue);
-    background-color: var(--navy);
+    background-color: var(--deep-grey);
     padding-left: 2%;
 }
 
@@ -156,7 +157,7 @@ form div input {
     outline: none;
     border: 2px solid var(--light-grey);
     padding: 0 30px;
-    box-shadow: 2px 12px 15px var(--midnight-blue);
+    box-shadow: 2px 12px 15px var(--deep-grey);
 }
 
 label {
@@ -185,9 +186,9 @@ input:focus {
 
 form {
     max-width: 500px;
-    height: 26rem;
+    height: 27rem;
     padding: 2em;
-    background: linear-gradient(var(--greige), var(--navy));
+    background: linear-gradient(var(--greige), var(--dark-grey));
 }
 
 form p {
@@ -207,7 +208,7 @@ form a.continue,
 #myBtn {
     font-size: 1.175em;
     background-color: var(--light-grey);
-    color: var(--midnight-blue);
+    color: var(--deep-grey);
     padding: .5em 1em;
     text-decoration: none;
     border-radius: 25px;
@@ -227,7 +228,7 @@ form a.continue, .app-submit{
 button.reset-form {
     background-color: transparent;
     border: none;
-    color: var(--light-grey);
+    color: var(--deep-grey);
     font-size: 20px;
     letter-spacing: .5px;
 }
@@ -241,7 +242,7 @@ form label span {
     box-sizing: border-box;
     margin-bottom: 8px;
     padding: 14px 12px;
-    border: 2px solid var(--midnight-blue);
+    border: 2px solid var(--deep-grey);
     background-color: var(--light-grey);
     cursor: pointer;
     border-radius: 25px;
@@ -251,7 +252,7 @@ form label:hover span,
 form label:focus span {
     border: 2px solid #DA966A;
     background-color: #F5ECEE;
-    color: var(--midnight-blue);
+    color: var(--deep-grey);
 }
 
 form input[type=radio] {
@@ -260,7 +261,7 @@ form input[type=radio] {
 
 form input[type=radio]:checked+span {
     background-color: var(--yellow-light);
-    color: var(--midnight-blue);
+    color: var(--deep-grey);
 }
 
 /* begin footer styling */
@@ -314,22 +315,22 @@ h2 {
 }
 
 .f-box a {
-    color: var(--midnight-blue);
+    color: var(--deep-grey);
 }
 
 .footer-bottom {
     text-align: center;
-    color: var(--midnight-blue);
+    color: var(--deep-grey);
 }
 
 .footer-left p {
     padding-right: 20%;
     text-align: justify;
-    color: var(--midnight-blue);
+    color: var(--deep-grey);
 }
 
 .socials a {
-    background: var(--navy);
+    background: var(--deep-grey);
     width: 40px;
     height: 40px;
     display: inline-block;
