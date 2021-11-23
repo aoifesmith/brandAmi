@@ -137,40 +137,45 @@ All features listed in the Structure Plane were implemented as per design. A cus
 
 
 
-
-
-
 ## Deployment
 This project was created using [Gitpod](https://gitpod.io/) and deployed on [Github](https://github.com/). On occasion when there were server site issues with Gitpod or user interupted internet access VSCode on a local machine was used to progress. Code was copied and pasted to the project on Gitpod. The site was deployed to Github pages.
 
 ### Repository Setup on GitHub
-Open GitHub in the browser.
-Sign in with username and password.
-Navigate to "Your repositories".
-The portfolio 2 site was initially created using the code-institute-full-template repository available from the Code Institute. Upon navigating to the template link the "Use this template" button was selected.
+1. Open GitHub in the browser.
+2. Sign in with username and password.
+3. Navigate to "Your repositories".
+4. The portfolio 2 site was initially created using the code-institute-full-template repository available from the Code Institute. Upon navigating to the template link the "Use this template" button was selected.
 
 Images 
 
 ### Workspace on GitPod
-Enter the name of the Repository 
-Click green 'Create repository from template' button
-Wait while the repository is generated. 
-Click the green 'Gitpod' button
-Wait for IDE workspace to prepare.
-IDE opens up and ready to use Gitpod platform. 
-This workspace is used to create the required folders, files and code for the website and added all needed images.
-Git commands such as add, commit and push command were regularly implemented when working on Gitpod sending saved details to GitHub.
+1. Enter the name of the Repository 
+2. Click green 'Create repository from template' button
+3. Wait while the repository is generated. 
+4. Click the green 'Gitpod' button
+5. Wait for IDE workspace to prepare.
+6. IDE opens up and ready to use Gitpod platform. 
+7. This workspace is used to create the required folders, files and code for the website and added all needed images.
+8. Git commands such as add, commit and push command were regularly implemented when working on Gitpod sending saved details to GitHub.
 
 Images 
 
 ### Deploy on GitHub
 
-On GitHub, navigate to your repositories.
-Select the site.
-Navigate to *Settings*.
-In the left sidebar, select Pages.
-Under the GitHub Pages from the source section drop-down menu, select the main branch.
-Upon correct selection and saving of the main branch, refresh the page and the site is successfully deployed.
-The site is published with the live site address provided.
+1. On GitHub, navigate to your repositories.
+2. Select the site.
+3. Navigate to *Settings*.
+4. In the left sidebar, select Pages.
+5. Under the GitHub Pages from the source section drop-down menu, select the main branch.
+6. Upon correct selection and saving of the main branch, refresh the page and the site is successfully deployed.
+7. The site is published with the live site address provided.
 
 Images
+
+### Forking a GitHub Repository
+1. Login to GitHub.
+2. Locate your desired repository '[brandAmi](https://github.com/aoifesmith/brandAmi)'.
+3. Locate the fork option in the top-right hand corner of the repository page.
+4. You will be asked where you want to fork it to.
+5. You should now have a copy of this repository into your GitHub account.
+6. For more information on how to clone a repository, please check this [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
