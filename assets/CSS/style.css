@@ -147,6 +147,10 @@ li {
     color: var(--greige)
 }
 
+.modal-list {
+    list-style-type: none;
+}
+
 /* end modal styling */
 
 
