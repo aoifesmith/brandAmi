@@ -24,3 +24,10 @@ The website provides an application form which determines eligibility of applica
 * Provide user instructions on how to use the application checker and confirm criteria needed to be a successful applicant. 
 
 #### User stories
+1. As a user, I want to easily understand the main purpose of the site.
+2. As a user, I want to view the website and content clearly on any device.
+3. As a user, I want to have instructions on how use the eligibility checker so that I can easily understand the process and requirements.
+4. As a user, I want to be alerted to any errors I make during my application process.
+5. As a user, I want to know whether I meet eligibility criteria.
+6. As a user, I want to be offered the opportunity to reset the application process. 
+7. As a user, I want to be provided with contact information for the site owner in case I want to reach out with any queries I have about the site.
