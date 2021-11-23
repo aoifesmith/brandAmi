@@ -108,3 +108,30 @@ Wireframes were originally hand sketched designs created to aid planning the web
 Mobile, Tablet, and Desktop wireframes are all available here with images to follow in the dropdown menu below.
 
 Wireframes Layout Images
+
+### The Surface Plane
+#### Design
+##### Imagery
+The logo is a simple yellow design with the company name and an icon that combines the letters 'b' and 'a'. It is a custom created design made using the ios Procreate app. A variety of options was created and included square, vertical, horizontal sizes with and without transparent backgrounds. From Pixabay to Unsplash, research was conducted on a number of free photography websites. As the research progressed, the concept of using illustrations instead became a was deemed more appropriate as they are modern and contemporary and could cater to a wide range of people through the usage of diverse colors. Undraw provided the illustrations that were finally approved for usage.
+
+The 'About' section's hero picture is a simple representation of a person with a number of computer devices behind them. Because social media is at the forefront of it, having an illustration with the devices was thought acceptable to the services of the business. To ensure uniformity & consistency across the site, the image was carefully altered to use the same hex color as the brand logo.
+
+In order to amplify this consistency in the look and feel of the website all images were then altered using the colour scheme settled on for the site. The images were compressed using the site tinypng to help improve site loading time performance and prevent user delay wait times. When tinypng was not implemented images that were sent from the developer’s iPad through the mail app selected either the small or medium size selection keeping kbs sizes as low as possible without losing integrity of the image or pixilation issues.
+
+#### Colour Scheme
+The colour scheme was inspired by the name of the business. As this is a fictitious site a number of business names were considered. Given the nature of the site was for brand ambassadors the name ‘Ami’ was considered. It is the French translation of friend. brandAmi was the final outcome. With the word ‘friend’ in mind research on colours began. Yellow is the colour associated with friendship. Positive, sunny and optimistic, yellow is energetic and eye-catching – and particularly effective for point-of-sale messaging, as it's proven to catch the eye quicker than any other colour. From this the colour scheme evolved. Colours including various shades of yellow, blue and grey were run through a number of different colour generators (Brandfolder, Coolors, Procreate) until finally settling upon. Image Color Testing Report 
+
+These were then tested for contrast ratios in order to ensure they would pass accessibility requirements. By ensuring this step was carried out the result would be to the benefit of those with visual impairments. Where it was deemed necessary to slightly alter the colour value to achieve higher accessibility ratio results amendments were then made. These were only done whereby the integrity of the design was to be maintained. See Color Contrast Test Report.
+
+#### Typography
+Research was carried out on a number of fonts for the website. An important consideration was in the area of accessibility. Given the modern and contemporary business approach the decision was to use a clear san-serif font. The site is to appeal to a wide variety of users and so keeping the typography in an easily readable font was of significant importance. A number of tests and comparisons were carried out matching various suitable fonts and seeing how they looked compared against each other. The fonts were rotated to see what differences were when swapped from header to paragraph text. 
+
+Sometimes one font is enough to make your design stand. This is one of those times. The final confirmed fonts is Quicksand was selected whereby it would use two different weights. ‘Medium’ for the headings and ‘Light’ for the body. Quicksand is a geometric display sans-serif with rounded terminals, which makes it a friendly and pleasant type. Using it with bright colors creates a modern and sharp look. A backup font of sans-serif would be used where these fonts were not available so the site would still remain relatively consistent.
+
+#### Favicon
+
+text to be added
+
+#### Differences to Design
+All features listed in the Structure Plane were implemented as per design. A custom 404 page was added to the website that contains an link to allow the user to direct back to the home page if they try to access a page that is not available.
+
