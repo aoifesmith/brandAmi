@@ -45,7 +45,7 @@ const form = document.getElementById('id-form');
 const errorElement = document.getElementById('error');
 
 form.addEventListener('submit', (e) => {
-    let messages = []
+    let messages = [];
     if (userId.value === '' || userId.value == null) {
       messages.push('UserId is required. You must be a registered user to access this area!');
     }
