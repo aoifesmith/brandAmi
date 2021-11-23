@@ -96,8 +96,8 @@ function populateForm(criteria) {
   var text = '';
 
   for (var prop in current_criteria.answers) {
-    if (current_criteria['answers'].hasOwnProperty(prop)) { //method returns boolean (true or false)indicating if the object has specified property adding answers to the criteria
-      text += '<label><input type="radio" name="response" value="' + prop + '"/><span>' + current_criteria['answers'][prop] + '</span></label>';
+    if (current_criteria.answers.hasOwnProperty(prop)) { //method returns boolean (true or false)indicating if the object has specified property adding answers to the criteria
+      text += '<label><input type="radio" name="response" value="' + prop + '"/><span>' + current_criteria.answers[prop] + '</span></label>';
     }
   }
 
