@@ -162,3 +162,15 @@ This workspace is used to create the required folders, files and code for the we
 Git commands such as add, commit and push command were regularly implemented when working on Gitpod sending saved details to GitHub.
 
 Images 
+
+### Deploy on GitHub
+
+On GitHub, navigate to your repositories.
+Select the site.
+Navigate to *Settings*.
+In the left sidebar, select Pages.
+Under the GitHub Pages from the source section drop-down menu, select the main branch.
+Upon correct selection and saving of the main branch, refresh the page and the site is successfully deployed.
+The site is published with the live site address provided.
+
+Images
