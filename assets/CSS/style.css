@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Roboto&display=swap');
+
 *,
 *:before,
 *:after {
@@ -13,10 +15,10 @@
 }
 
 body {
-    font-family: "Tahoma";
+    font-family: "Quicksand", sans-serif;
     margin: 0;
     display: grid;
-    font-size: 14px;
+    font-size: 100%;
     background-color: var(--greige);
 }
 
