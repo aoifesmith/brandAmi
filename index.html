@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Information (Scale, Language) -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/site.webmanifest">
 
-    <!-- SEO -->
+    <!-- SEO Meta Information (Author, Description, Keywords) -->
     <meta name="description" content="A leading brand ambassador partnership programme management company. We expertly pair 
         and manage brand ambassadors for some of the world’s leading brands.">
     <meta name="keywords"
@@ -30,7 +31,7 @@
 </head>
 
 <body>
-    <!-- Begin Header -->
+    <!-- Begin Header with Logo NavBar Links -->
     <header>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">brandAmi</a>
@@ -128,7 +129,8 @@
                     aria-label="Enter password (required)" />
             </div>
 
-            <button type="submit" class="app-submit">Apply</button>
+            <button type="submit" class="app-submit"
+                aria-label="Apply button (Opens new page upon valid data submission">Apply</button>
         </form>
     </div>
     <!-- End Apply Now area -->
@@ -140,7 +142,9 @@
     required to be a successful applicant -->
     <div class="wrapper">
         <!-- Trigger/Open The Modal -->
-        <button id="myBtn">How to Apply</button>
+        <button id="myBtn"
+            aria-label="Instructions How to Apply button (Opens promt with instructions and criteria requirements">How
+            to Apply</button>
         <!-- The Modal -->
         <div id="myModal" class="modal">
 
