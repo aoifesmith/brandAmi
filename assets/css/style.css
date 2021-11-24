@@ -84,8 +84,6 @@ video {
     flex: 50%;
   }
 
-
-
 #error {
     color: var(--greige);
     line-height: 200%;
@@ -281,7 +279,7 @@ form input[type=radio]:checked+span {
 
 h2 {
     font-weight: 600;
-    font-size: 17px;
+    font-size: 120%;
     color: var(--deep-grey);
 }
 
