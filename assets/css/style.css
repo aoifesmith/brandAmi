@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500');
 
 *,
 *:before,
@@ -35,9 +35,9 @@ body {
     display: block;
     color: var(--deep-grey);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .topnav a:hover {
@@ -48,16 +48,19 @@ body {
 .topnav a.active {
     background-color: var(--yellow);
     color: var(--deep-grey);
-    font-size: 115%;
-    font-weight: 900;
+    font-size: 130%;
+    font-weight: bolder;
 }
 
 .topnav .burger {
     display: none;
 }
-
 /* end nav styling*/
 
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
 video {
     max-width: 100%;
     height: auto;
@@ -243,8 +246,8 @@ form label span {
 
 form label:hover span,
 form label:focus span {
-    border: 2px solid #DA966A;
-    background-color: #F5ECEE;
+    border: 2px solid var(--yellow);
+    background-color: var(--greige);
     color: var(--deep-grey);
 }
 
@@ -262,8 +265,9 @@ form input[type=radio]:checked+span {
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
-    color: var(--navy);
-    background-color: var(--sand);
+    color: var(--deep-grey);
+    /* background-color: var(--sand); */
+    background: linear-gradient(var(--sand), var(--greige));
 }
 
 .footer>* {
