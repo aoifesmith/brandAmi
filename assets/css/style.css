@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
 
+/* set wildcard selectors to control box-model position of design elements */
 *,
 *:before,
 *:after {
@@ -22,7 +23,7 @@ body {
     display: grid;
     font-size: 100%;
     background-color: var(--greige);
-    
+
 }
 
 /* begin nav styling*/
@@ -56,33 +57,37 @@ body {
 .topnav .burger {
     display: none;
 }
+
 /* end nav styling*/
 
 h1 {
     font-size: 30px;
     text-align: center;
 }
+
 video {
     max-width: 100%;
     height: auto;
-  }
+}
 
 .flex-container {
     display: flex;
     flex-direction: row;
-  }
-  
-  .flex-item-left {
+}
+
+.flex-item-left {
     background-color: var(--light-grey);
     padding: 20px;
     flex: 50%;
-  }
-  
-  .flex-item-right {
+}
+
+.flex-item-right {
     background-color: var(--sand);
     padding: 20px;
     flex: 50%;
-  }
+}
+
+/* styling to control the display of the errors returned during validation of the user data input */
 
 #error {
     color: var(--greige);
@@ -92,7 +97,9 @@ video {
     border-radius: 15px;
 }
 
-/* start modal styling */
+/* start modal styling - This feature includes a button which can be initiated by user 
+clicking it to open a prompt of instructions how to use the checker and eligibility requirements -
+Code reference - https://www.w3schools.com/howto/howto_css_modals.asp */
 .modal {
     display: none;
     /* Hidden by default */
@@ -148,8 +155,8 @@ video {
 .modal-list {
     list-style-type: none;
 }
-/* end modal styling */
 
+/* end modal styling */
 
 /* styling for apply area labels and fields */
 form div input {
@@ -176,8 +183,10 @@ input:focus {
     border: 2px solid var(--yellow);
 }
 
-
-/* start styling eligibility steps & apply form */
+/* start styling eligibility steps & apply form - buttons are given different features 
+such as change of colour font and background to show actions such as hovering over button 
+to confirm to user they have correct cursor placement, answers have been selected and confirmed 
+ready to continue etc. - gives reassurance to user their actions are as expected*/
 .wrapper {
     width: 100%;
     height: 100%;
@@ -208,7 +217,8 @@ form fieldset {
 
 form a.continue,
 .app-submit,
-#myBtn, button.reset-form {
+#myBtn,
+button.reset-form {
     font-size: 1.175em;
     background-color: var(--light-grey);
     color: var(--deep-grey);
@@ -220,11 +230,14 @@ form a.continue,
 form a.continue:hover,
 form a.continue:focus,
 .app-submit:hover,
-.app-submit:focus, button.reset-form:hover, button.reset-form:focus {
+.app-submit:focus,
+button.reset-form:hover,
+button.reset-form:focus {
     background-color: var(--yellow);
 }
 
-form a.continue, .app-submit{
+form a.continue,
+.app-submit {
     float: right;
 }
 
@@ -254,14 +267,15 @@ form input[type=radio]:checked+span {
     background-color: var(--yellow-light);
     color: var(--deep-grey);
 }
+/* end styling eligibility steps & apply form */
 
-/* begin footer styling */
+
+/* begin footer styling - in large devices such as desktop and tablets the display will be 3 columns side by side*/
 .footer {
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
     color: var(--deep-grey);
-    /* background-color: var(--sand); */
     background: linear-gradient(var(--sand), var(--greige));
 }
 
@@ -344,9 +358,9 @@ h2 {
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 900px) {
     .flex-container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
 
 @media screen and (max-width: 600px) {
 
