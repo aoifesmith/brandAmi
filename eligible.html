@@ -53,9 +53,9 @@
     <div class="wrapper">
         <form id="appForm">
             <p></p>
-            <fieldset></fieldset>
-            <button id="resetButton" class="reset-form" onclick="resetForm()"> Reset</button>
-            <a id="continueButton" class="continue" href="javascript:void(0);">Continue</a>
+            <fieldset aria-label="answer for selection"></fieldset> 
+            <button id="resetButton" class="reset-form" onclick="resetForm()" aria-label="reset"> Reset</button>
+            <a id="continueButton" class="continue" href="javascript:void(0);" aria-label="continue button">Continue</a>
         </form>
     </div>
     <!-- End eligibility application process area -->
@@ -95,7 +95,7 @@
                     <li>T: 01 8251512</li>
                     <li>M: 085 251512</li>
                     <li><a href="mailto:contact@brandAmi.com" target="_blank" rel="noopener"
-                            aria-label="Email us (opens email)">Email Us</a></li>
+                            aria-label="Email us (opens default email with email address in To)">Email Us</a></li>
                 </ul>
             </li>
             <li>
