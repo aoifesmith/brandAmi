@@ -12,11 +12,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/site.webmanifest">
 
+    <!-- SEO -->
+    <meta name="description" content="A leading brand ambassador partnership programme management company. We expertly pair 
+        and manage brand ambassadors for some of the world’s leading brands.">
+    <meta name="keywords"
+        content="brand ambassador, digital marketing, promotional events, product launch, promotional jobs, brand awareness, SME advertising, digital advertising">
+    <meta name="author" content="brandAmi">
+
+    <!-- Link to external style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>brandAmi</title>
 
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/603ef79b4c.js" crossorigin="anonymous"></script>
+
+    <title>brandAmi - Eligibility Checker</title>
 
 </head>
 
@@ -51,8 +60,12 @@
     </div>
     <!-- End eligibility application process area -->
 
-    <!-- Begin Footer -->
+    <!-- Begin Footer - The footer is made up a series of sections in their own columns. On large display areas the columns 
+        will be side by side. When viewed on smaller devices the columns change responsively where they line up one on top of 
+        the other by use of flex-box styling and media queries -->
     <footer class="footer">
+        <!-- The left footer area is made up of the brandAmi logo, a short paragraph about the company and a list of social 
+                media icons. The social media icons when clicked open up in a new tab in their respective website.  -->
         <div class="footer-left">
             <img src="assets/images/ba-logo-hr.png" alt="brandAmi logo">
             <p>brandAmi is a service for empowering businesses by creating awareness of their products through active
@@ -70,17 +83,21 @@
             </div>
         </div>
 
+        <!-- The right footer area is made up of two sections of data. One contains the contact numbers and email address 
+                and the other the address in over a series of list lines. When the email is clicked it opens up the default mail 
+                system where the user can send an email to the company. These are responsive features and change layout from side by 
+                side on larger devices to one after the other in smaller devices-->
+
         <ul class="footer-right">
             <li>
                 <h2>Useful Info</h2>
                 <ul class="f-box">
                     <li>T: 01 8251512</li>
-                    <li>M: 087 251511</li>
+                    <li>M: 085 251512</li>
                     <li><a href="mailto:contact@brandAmi.com" target="_blank" rel="noopener"
                             aria-label="Email us (opens email)">Email Us</a></li>
                 </ul>
             </li>
-
             <li>
                 <h2>Address</h2>
                 <ul class="f-box">
@@ -97,6 +114,11 @@
     </footer>
     <!-- End Footer -->
 
+
+    <!-- The eligible.js file contains the functionality that determines if the user meets the criteria to become a 
+    brand ambassador for brandAmi. The user is guided through a series of steps, progressing only if they select the 
+    correct criteria that matches the requirements of the company. If they select ineligible criteria the user is 
+    notified with a message returned to the screen. If they meet all requirements they receive a message of success.  -->
     <script src="assets/js/eligible.js"></script>
 </body>
 
