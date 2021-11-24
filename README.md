@@ -151,7 +151,8 @@ Sometimes one font is enough to make your design stand. This is one of those tim
 
 #### Favicon
 
-text to be added
+A favicon was created using the custom created logo. The logo was cropped to only include the icon of the merged 'b' & 'a. The colour yellow #ffce24 is the primary colour used. The background colour is transparent in this image. The text and colours were selected for consistency across the site. Care was taken to ensure the simple icon ‘ba’ for the site business name. The beneficial use of the favicon is it helps the user save time and quickly identify your website without difficulties. It follows a goal of making the site intuitive for navigation both internally and externally when multiple tabs are open. It also reinforces the ‘brand’ of the website and gives a sense of confirmation that the user is on the right site.
+
 
 #### Differences to Design
 All features listed in the Structure Plane were implemented as per design. A custom 404 page was added to the website that contains an link to allow the user to direct back to the home page if they try to access a page that is not available.
