@@ -27,10 +27,11 @@ The website provides an application form which determines eligibility of applica
 1. As a user, I want to easily understand the main purpose of the site.
 2. As a user, I want to view the website and content clearly on any device.
 3. As a user, I want to have instructions on how use the eligibility checker so that I can easily understand the process and requirements.
-4. As a user, I want to be alerted to any errors I make during my application process.
-5. As a user, I want to know whether I meet eligibility criteria.
-6. As a user, I want to be offered the opportunity to reset the application process. 
-7. As a user, I want to be provided with contact information for the site owner in case I want to reach out with any queries I have about the site.
+4. As a user, I want to learn what the eligibility requirements are to become a brand ambassador so I can ensure I meet criteria to become a successful applicant.
+5. As a user, I want to be alerted to any errors I make during my application process.
+6. As a user, I want to be advised if I have been successful in my application so I will be informed as to whether I need to reapply or wait upon instruction as a confirmed candidate..
+7. As a user, I want to be offered the opportunity to reset the application process. 
+8. As a user, I want to be provided with contact information for the site owner in case I want to reach out with any queries I have about the site.
 
 ### The Scope Plane
 
@@ -75,27 +76,39 @@ Only numbers will be accepted as the user id which is a 4 digit number.
 The password cannot be the word ‘password’ and must be between 6 and 20 characters combined. 
 
 #### User Story 4:
+*As a user, I want to learn what the eligibility requirements are to become a brand ambassador so I can ensure I meet criteria to become a successful applicant.*
+##### Acceptance Criteria:
+* A list of requirements to be provided in the Critera section on main page as well as the 'How to Apply' modal button which contain a list of requirements
+##### Description:
+Information to be included: A list of eligibility requirements that are required to become a successful candidate. 
+You need to be a resident of Ireland.
+You must be over 18 years of age.
+You must have at least 5k IG followers.
+You must have at least 20k TikTok followers.
+A sinister plot twist with ties to selling ones soul of course.
+
+#### User Story 5:
 *As a user, I want to be alerted to any errors I make during my application process.*
 ##### Acceptance Criteria:
 * Unsuccessful data input errors are displayed on form area.
 ##### Description:
 If the user enters an unsuccessful input for the user id or password, an error will be displayed in the form area under the 'Apply' heading. It will be highlighted with a different colour background which draws the user attention to the information required. 
 
-#### User Story 5:
-*As a user, I want to know whether I meet eligibility criteria.*
+#### User Story 6:
+*As a user, I want to be advised if I have been successful in my application so I will be informed as to whether I need to reapply or wait upon instruction as a confirmed candidate.*
 ##### Acceptance Criteria:
 * Successful completion of the application displayed to user.
 ##### Description:
 If the user successfully answers the eligibility criteria a message will be displayed that the user is a successful candidate and will be contacted in due course. If the user is unsuccessful in a question they will not be able to proceed with further queries and will be prompted that they are ineligibe to become a brandAmi ambassador. 
 
-#### User Story 6:
+#### User Story 7:
 *As a user, I want to be offered the opportunity to reset the application process mid process*
 ##### Acceptance Criteria:
 * Reset feature provided in the eligibility application area.
 ##### Description:
 If the user wants to return to the initial eligibility checker questions they can opt to click on the reset feature and reset the questions. 
 
-#### User Story 7:
+#### User Story 8:
 *As a user, I want to be provided with contact information for the site owner in case I want to reach out with any queries I have about the site.*
 ##### Acceptance Criteria:
 * Contact Information displayed in footer.
