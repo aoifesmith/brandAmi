@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Information (Scale, Language) -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/site.webmanifest">
 
-    <!-- SEO -->
+    <!-- SEO Meta Information (Author, Description, Keywords) -->
     <meta name="description" content="A leading brand ambassador partnership programme management company. We expertly pair 
         and manage brand ambassadors for some of the world’s leading brands.">
     <meta name="keywords"
@@ -24,7 +25,7 @@
 
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/603ef79b4c.js" crossorigin="anonymous"></script>
-
+    
     <title>brandAmi - Eligibility Checker</title>
 
 </head>
@@ -51,7 +52,7 @@
         The user goes through a series of steps proceeding when each criteria is met or is otherwise informed 
         they were unsuccessful in application -->
     <div class="wrapper">
-        <form id="appForm">
+        <form id="appForm" aria-label="Question and answer area">
             <p></p>
             <fieldset aria-label="answer for selection"></fieldset> 
             <button id="resetButton" class="reset-form" onclick="resetForm()" aria-label="reset"> Reset</button>
