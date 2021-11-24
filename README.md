@@ -32,6 +32,7 @@ The website provides an application form which determines eligibility of applica
 6. As a user, I want to be advised if I have been successful in my application so I will be informed as to whether I need to reapply or wait upon instruction as a confirmed candidate..
 7. As a user, I want to be offered the opportunity to reset the application process. 
 8. As a user, I want to be provided with contact information for the site owner in case I want to reach out with any queries I have about the site.
+9. As a site owner I want to be able to provide users a brief overview of the company so users can be informed what the company does.
 
 ### The Scope Plane
 
@@ -114,6 +115,13 @@ If the user wants to return to the initial eligibility checker questions they ca
 * Contact Information displayed in footer.
 ##### Description:
 Contact information will be added to the footer. This will contain a name and email for the site owner.
+
+#### User Story 9:
+* As a site owner I want to be able to provide users a brief overview of the company so users can be informed what the company does*
+##### Acceptance Criteria:
+* Company services info displayed in the About opening paragraph on main page. 
+##### Description:
+Company information advising it's services will be added to the opening paragraph of the main page. The information will include details about who the service is for. 
 
 ### The Skeleton Plane
 #### Wireframes
