@@ -10,7 +10,7 @@ function navFunction() {
     }
   }
 
-  // Get the modal
+// Get the modal - Code reference https://www.w3schools.com/howto/howto_css_modals.asp
 let modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
@@ -37,12 +37,13 @@ window.onclick = function(event) {
   }
 };
 
-
-// Functions to handle the validation of the user id and password in order to proceed or block and advise what is needed to proceed.
 let userId = document.getElementById('userId');
 let password = document.getElementById('password');
 let form = document.getElementById('id-form');
 let errorElement = document.getElementById('error');
+
+// Functionality to handle the validation of the user id and password in order to proceed or block and 
+// advise what is user data is needed to proceed.
 
 form.addEventListener('submit', (e) => {
     let messages = [];
@@ -57,16 +58,13 @@ form.addEventListener('submit', (e) => {
     }  
     if (password.value.length <= 6) {
       messages.push('Password must be longer than 6 characters!');
-    }
-  
+    }  
     if (password.value.length >= 20) {
       messages.push('Password must be less than 20 characters!');
     }
-  
     if (password.value === 'password') {
       messages.push("Password cannot be the word 'password'!");
     }
-  
     if (messages.length > 0) {
       e.preventDefault();
       errorElement.innerHTML = messages.join('<br/>');

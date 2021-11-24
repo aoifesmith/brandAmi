@@ -16,6 +16,9 @@ let submit = document.getElementById('continueButton');
 let reset = document.getElementById('resetButton');
 let response = '';
 
+// criteria_qs contains the list of questions and answers that the user will be presented with when they are navigating
+// through the eligibility checker. 
+
 let criteria_qs = {
   "start": {
     "question": "Success sign in! Please answer below questions:" + '<br/>' + '<br/>' + 'Q1/5: Are you over 18 years of age?',
@@ -100,11 +103,8 @@ function populateForm(criteria) {
       text += '<label><input type="radio" name="response" value="' + prop + '"/><span>' + current_criteria.answers[prop] + '</span></label>';
     }
   }
-
-
   form.querySelector('p').innerHTML = current_criteria.question; //write questions to the p tag 
   form.querySelector('fieldset').innerHTML = text; //write answers to the fieldset 
-
 }
 
 populateForm('start'); //set the form at the beginning
