@@ -151,7 +151,7 @@ Sometimes one font is enough to make your design stand. This is one of those tim
 
 #### Favicon
 
-A favicon was created using the custom created logo. The logo was cropped to only include the icon of the merged 'b' & 'a. The colour yellow #ffce24 is the primary colour used. The background colour is transparent in this image. The text and colours were selected for consistency across the site. Care was taken to ensure the simple icon ‘ba’ for the site business name. The beneficial use of the favicon is it helps the user save time and quickly identify your website without difficulties. It follows a goal of making the site intuitive for navigation both internally and externally when multiple tabs are open. It also reinforces the ‘brand’ of the website and gives a sense of confirmation that the user is on the right site.
+A favicon was created on the [Favicon.io](https://favicon.io/) website using the custom created logo. The logo was cropped to only include the icon of the merged 'b' & 'a. The colour yellow #ffce24 is the primary colour used. The background colour is transparent in this image. The text and colours were selected for consistency across the site. Care was taken to ensure the simple icon ‘ba’ for the site business name. The beneficial use of the favicon is it helps the user save time and quickly identify your website without difficulties. It follows a goal of making the site intuitive for navigation both internally and externally when multiple tabs are open. It also reinforces the ‘brand’ of the website and gives a sense of confirmation that the user is on the right site.
 
 
 #### Differences to Design
@@ -180,7 +180,18 @@ Images
 7. This workspace is used to create the required folders, files and code for the website and added all needed images.
 8. Git commands such as add, commit and push command were regularly implemented when working on Gitpod sending saved details to GitHub.
 
-Images 
+<details>
+<summary>SEE IMAGES below of Gitpod setup walk through</summary>
+
+![Gitpod- settings](documentation/deploy/gitpod1-ci-template.png)
+![Gitpod- name-site](documentation/deploy/gitpod2-name-site.png)
+![Gitpod- create-repo](documentation/deploy/gitpod3-create-repo.png)
+![Gitpod- generate-repo](documentation/deploy/gitpod4-generate-repo.png)
+![Gitpod- green-button](documentation/deploy/gitpod5-green-button.png)
+![Gitpod- prep-workspace](documentation/deploy/gitpod6-prep-workspace.png)
+![Gitpod- workspace-created](documentation/deploy/gitpod7-workspace-created.png)
+
+</details>
 
 ### Deploy on GitHub
 
@@ -192,7 +203,20 @@ Images
 6. Upon correct selection and saving of the main branch, refresh the page and the site is successfully deployed.
 7. The site is published with the live site address provided.
 
-Images
+<details>
+<summary>SEE IMAGES below of deployment walk through</summary>
+
+![Deploy- settings](documentation/deploy/deploy1-settings.png)
+![Deploy- pages](documentation/deploy/deploy2-pages.png)
+![Deploy- source](documentation/deploy/deploy3-source.png)
+![Deploy- main](documentation/deploy/deploy3b-main.png)
+![Deploy- main-selected](documentation/deploy/deploy4-main-selected.png)
+![Deploy- save](documentation/deploy/deploy5-save.png)
+![Deploy- publish-link](documentation/deploy/deploy6-publish-link.png)
+![Deploy- refresh](documentation/deploy/deploy7-refresh.png)
+![Deploy- published-site-link](documentation/deploy/deploy8-publish-final.png)
+
+</details>
 
 ### Forking a GitHub Repository
 1. Login to GitHub.
