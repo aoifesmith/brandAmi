@@ -2,7 +2,7 @@
 // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
 
 function navFunction() {
-  var x = document.getElementById("myTopnav");
+  let x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
@@ -10,13 +10,13 @@ function navFunction() {
   }
 }
 
-var criteria = 0; // keeps criteria from being undefined 
-var form = document.getElementById('appForm'); // get the element with matching ids
-var submit = document.getElementById('continueButton');
-var reset = document.getElementById('resetButton');
-var response = '';
+let criteria = 0; // keeps criteria from being undefined 
+let form = document.getElementById('appForm'); // get the element with matching ids
+let submit = document.getElementById('continueButton');
+let reset = document.getElementById('resetButton');
+let response = '';
 
-var criteria_qs = {
+let criteria_qs = {
   "start": {
     "question": "Success sign in! Please answer below questions:" + '<br/>' + '<br/>' + 'Q1/5: Are you over 18 years of age?',
     "answers": {
@@ -92,10 +92,10 @@ function resetForm() {
 
 // function to generate answers from criteria
 function populateForm(criteria) {
-  var current_criteria = criteria_qs[criteria]; // take values from criteria_qs criteria
-  var text = '';
+  let current_criteria = criteria_qs[criteria]; // take values from criteria_qs criteria
+  let text = '';
 
-  for (var prop in current_criteria.answers) {
+  for (let prop in current_criteria.answers) {
     if (current_criteria.answers.hasOwnProperty(prop)) { //method returns boolean (true or false)indicating if the object has specified property adding answers to the criteria
       text += '<label><input type="radio" name="response" value="' + prop + '"/><span>' + current_criteria.answers[prop] + '</span></label>';
     }

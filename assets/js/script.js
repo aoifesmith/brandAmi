@@ -2,7 +2,7 @@
 // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
 
 function navFunction() {
-    var x = document.getElementById("myTopnav");
+    let x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
     } else {
@@ -11,13 +11,13 @@ function navFunction() {
   }
 
   // Get the modal
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+let btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 
 // When the user clicks the button, open the modal 
@@ -39,10 +39,10 @@ window.onclick = function(event) {
 
 
 // Functions to handle the validation of the user id and password in order to proceed or block and advise what is needed to proceed.
-const userId = document.getElementById('userId');
-const password = document.getElementById('password');
-const form = document.getElementById('id-form');
-const errorElement = document.getElementById('error');
+let userId = document.getElementById('userId');
+let password = document.getElementById('password');
+let form = document.getElementById('id-form');
+let errorElement = document.getElementById('error');
 
 form.addEventListener('submit', (e) => {
     let messages = [];
