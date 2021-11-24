@@ -83,17 +83,17 @@
         </div>
 
     </div>
-
-
     <!-- End text & media content area -->
 
-    <!-- Begin Apply Now area -->
+    <!-- Begin Apply Now area - This section is where the user enters input 
+        details that require validation in order to proceed to the eligibility checker. -->
     <div class="wrapper">
         <form id="id-form" action="eligible.html" method="GET">
             <div>
                 <h2 id="apply-h">Apply Now</h2>
 
-                <!-- Area for error output to be sent if incorrect submission or invalid data entered. Reason why validation failed is sent here and shown on the webpage-->
+                <!-- Area for error output to be sent if incorrect submission or invalid user data is entered. 
+                    Provides reason why validation failed which is returned to the webpage for user clarity and correction-->
                 <div id="error"></div>
 
                 <label for="userId">USER ID</label>
@@ -112,7 +112,11 @@
     </div>
     <!-- End Apply Now area -->
 
-    <!-- Modal button for instructions of how to apply and criteria that is required for successful application -->
+    <!-- Modal button for instructions of how to apply and criteria that is required for successful application 
+    The modal button when clicked on opens a prompt of instructions to the user how to fill in the form with user data. 
+    A series of validation checks is carried out on the user input to ensure it's type and details meet requirements
+    Advice on how to proceed with eligibility questions upon successful data entry is provided as well as criteria 
+    required to be a successful applicant -->
     <div class="wrapper">
         <!-- Trigger/Open The Modal -->
         <button id="myBtn">How to Apply</button>
@@ -151,8 +155,12 @@
     </div>
     <!-- End Modal button -->
 
-    <!-- Begin Footer -->
+    <!-- Begin Footer - The footer is made up a series of sections in their own columns. On large display areas the columns 
+        will be side by side. When viewed on smaller devices the columns change responsively where they line up one on top of 
+        the other by use of flex-box styling and media queries -->
     <footer class="footer">
+        <!-- The left footer area is made up of the brandAmi logo, a short paragraph about the company and a list of social 
+            media icons. The social media icons when clicked open up in a new tab in their respective website.  -->
         <div class="footer-left">
             <img src="assets/images/ba-logo-hr.png" alt="brandAmi logo">
             <p>brandAmi is a service for empowering businesses by creating awareness of their products through active
@@ -170,6 +178,11 @@
             </div>
         </div>
 
+        <!-- The right footer area is made up of two sections of data. One contains the contact numbers and email address 
+            and the other the address in over a series of list lines. When the email is clicked it opens up the default mail 
+            system where the user can send an email to the company. These are responsive features and change layout from side by 
+            side on larger devices to one after the other in smaller devices-->
+
         <ul class="footer-right">
             <li>
                 <h2>Useful Info</h2>
@@ -180,7 +193,6 @@
                             aria-label="Email us (opens email)">Email Us</a></li>
                 </ul>
             </li>
-
             <li>
                 <h2>Address</h2>
                 <ul class="f-box">
@@ -196,6 +208,9 @@
         </div>
     </footer>
     <!-- End Footer -->
+
+    <!-- The script.js file contains the functionality to control the navigation link responsivity, validation of the 
+        user data entered in the form as well as the modal button functionality -->
 
     <script src="assets/js/script.js"></script>
 </body>
