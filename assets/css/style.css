@@ -22,6 +22,7 @@ body {
     display: grid;
     font-size: 100%;
     background-color: var(--greige);
+    
 }
 
 /* begin nav styling*/
@@ -145,14 +146,9 @@ video {
     cursor: pointer;
 }
 
-li {
-    color: var(--greige)
-}
-
 .modal-list {
     list-style-type: none;
 }
-
 /* end modal styling */
 
 
