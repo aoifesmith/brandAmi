@@ -117,6 +117,7 @@ video {
 /* Modal Content */
 .modal-content {
     background-color: var(--deep-grey);
+    color: var(--greige);
     margin: auto;
     padding: 20px;
     border: 2px solid var(--yellow);
