@@ -350,6 +350,10 @@ form input[type=radio]:checked+span {
     font-size: 20px;
 }
 
+.socials a i:hover {
+    color: var(--yellow);
+}
+
 /* end footer styling */
 
 
