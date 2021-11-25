@@ -304,6 +304,19 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 
 
 # Credits
-## Imagery 
+## Imagery & Video
+Hero Illustration image - Undraw - Edited to incorporate yellow hex design colour
+404 illustration - Undraw - Edited to incorporate yellow hex design colour
+Logo - Custom created logo using Procreate ios App
+
+
 ## Code
+| Code                                                  | Name                     | Source                                                                                                                                                            |
+| ------------------------------------------------------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Responsive Navigation Menu  | W3 Schools | [Navigation Menu ](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)|
+| Responsive Footer Design using CSS Flexbox | CodingFlicks  | [Responsive Footer Design using CSS Flexbox](https://www.codingflicks.com/2020/09/responsive-footer-design-using-css-flexbox.html)  |
+| Modal Button | W3 Schools                | [Modal Example (Pop up javascript)](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) |
+| Coding an Interactive Sign up Form in Plain Javascript | PortEXE                | [PortEXE](https://www.youtube.com/watch?v=gOsJRyqzHtI&t=115s) |
+| Build A Text Adventure Game With JavaScript | Web Dev Simplified                | [Text Adventure](https://codepen.io/WebDevSimplified/pen/xoKZbd) |
+| CSS Variables - The var() Function | W3 Schools  | [var() Function](https://www.w3schools.com/css/css3_variables.asp) |
 ## Acknowledgments
