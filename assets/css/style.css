@@ -237,6 +237,8 @@ form a.continue:hover,
 form a.continue:focus,
 .app-submit:hover,
 .app-submit:focus,
+#myBtn:hover,
+#myBtn:focus,
 button.reset-form:hover,
 button.reset-form:focus {
     background-color: var(--yellow);
