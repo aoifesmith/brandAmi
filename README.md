@@ -229,6 +229,47 @@ In order to maintain consistency on the site an error 404 page was created. This
 
 ## Future Features
 
+# Technologies Used
+* ## Languages
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+* ## Frameworks and Libraries
+ *  [Coolors.co](https://coolors.co)
+ *  [Balsamiq](https://balsamiq.com/)
+ *  [Brandfolder](https://brandfolder.com/workbench/color-palette)
+ *  [Google Fonts](https://fonts.google.com/)
+ *  [Font Awesome](https://fontawesome.com/)
+ *  [VS Code](https://code.visualstudio.com/)
+ *  [GitHub](https://github.com/)
+ *  [Am I Responsive](http://ami.responsivedesign.is/)
+ *  [Favicon.io](https://favicon.io)
+ *  [Splice](https://apps.apple.com/us/app/splice-video-editor-maker/id409838725)
+ *  [YouTube](https://youtube.com)
+ *  [StackEdit](https://stackedit.io/)
+ *  [Abricotine](https://abricotine.brrd.fr/)
+ *  [WeTransfer](https://wetransfer.com/)
+ *  [Slack](https://slack.com/)
+ *  [Tinypng](https://tinypng.com/)
+ *  [Inspect Browser iOS app](https://pdyn.net)
+ *  [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+ *  [GitHub Mobile](https://github.com/mobile)
+ *  [Procreate](https://apps.apple.com/us/app/procreate/id425073498)
+ * [Trello- Project management](https://trello.com) 
+   Throughout the all stages the project management app Trello was utilized. It aided in organising to do checklists, set reminders, organising images and documentation as well as an area to place ideas. Lists were created for Planning, Content, Git & To do Code checklists, Mentor, Readme.md, Accessibility and Testing. These lists contained cards for note taking, research, scheduling mentor meetings, collation of admin, testing with checklists and screenshots of results. Files were added to cards such as images sourced or other relevant documentation. Some cards were set up with due dates which were connected to the developer’s email if getting close to deadline a reminder was sent. The management app was helpful to keep on track and focus on prioritized items within the project.
+
+![Trello Workspace](documentation/images/trello-project-management.png)
+
+<details>
+<summary><u>SEE IMAGES below of sample Trello cards</u></summary>
+    
+![Trello Goals Card](documentation/images/trello1.png)
+![Trello Image Curation Card](documentation/images/trello2.png)
+![Trello User Stories](documentation/images/trello3.png)
+
+</details>
+<br>
 
 # Deployment
 This project was created using [Gitpod](https://gitpod.io/) and deployed on [Github](https://github.com/). On occasion when there were server site issues with Gitpod or user interupted internet access VSCode on a local machine was used to progress. Code was copied and pasted to the project on Gitpod. The site was deployed to Github pages.
@@ -250,7 +291,7 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 8. Git commands such as add, commit and push command were regularly implemented when working on Gitpod sending saved details to GitHub.
 
 <details>
-<summary>SEE IMAGES below of Gitpod setup walk through</summary>
+<summary><u>SEE IMAGES below of Gitpod setup walk through</u></summary>
 
 ![Gitpod- settings](documentation/deploy/gitpod1-ci-template.png)
 ![Gitpod- name-site](documentation/deploy/gitpod2-name-site.png)
@@ -261,7 +302,7 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 ![Gitpod- workspace-created](documentation/deploy/gitpod7-workspace-created.png)
 
 </details>
-
+<br>
 ## Deploy on GitHub
 
 1. On GitHub, navigate to your repositories.
@@ -273,7 +314,7 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 7. The site is published with the live site address provided.
 
 <details>
-<summary>SEE IMAGES below of deployment walk through</summary>
+<summary><u>SEE IMAGES below of deployment walk through</u></summary>
 
 ![Deploy- settings](documentation/deploy/deploy1-settings.png)
 ![Deploy- pages](documentation/deploy/deploy2-pages.png)
@@ -286,6 +327,7 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 ![Deploy- published-site-link](documentation/deploy/deploy8-publish-final.png)
 
 </details>
+<br>
 
 ## Forking a GitHub Repository
 1. Login to GitHub.
@@ -299,16 +341,16 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 # Testing
 ## Validator Testing
 ## Bugs
+
 ## Manual Testing
 ## Accessibility
 
 
 # Credits
 ## Imagery & Video
-Hero Illustration image - Undraw - Edited to incorporate yellow hex design colour
-404 illustration - Undraw - Edited to incorporate yellow hex design colour
-Logo - Custom created logo using Procreate ios App
-
+* Hero & 404 Illustration images - [Undraw](http://https://undraw.co/illustrations) - Opensource illustrations edited to incorporate yellow hex design colour
+* Logo - Custom created logo using [Procreate] ios App (https://apps.apple.com/us/app/procreate/id425073498)
+* Video - Custom made video using screen recording feature on iPad
 
 ## Code
 | Code                                                  | Name                     | Source                                                                                                                                                            |
