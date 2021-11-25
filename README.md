@@ -161,38 +161,71 @@ A favicon was created on the [Favicon.io](https://favicon.io/) website using the
 All features listed in the Structure Plane were implemented as per design. A custom 404 page was added to the website that contains an link to allow the user to direct back to the home page if they try to access a page that is not available.
 
 # Features
-## Existing Features
-## All pages - Header and Footer sections:
+## **Existing Features**
 All pages have a header and footer. 
 
-### **Header**
+## Header
 The header contains the logo and the menu navigation links. This is located at the top of every page. 
 
 ![Header]()
 
-* #### **Logo**
- The logo is an interactive feature that directs the user to the home page. It is a simple text design with the website business name brandAmi.
-* **Nav Bar**
- The nav bar contains the links to the various pages or anchor tags on the website. The logo has a deep yellow colour whereas the rest of the bar is a sand yellow color. The text are interactive clickable links and takes the user to the appropriate destination on the website. The brandAmi text links to the homepage. The remaining links direct the user to anchor points on the main home page. When a user hovers over the 'About', 'Criteria' or 'Apply' link it changes from the sand colour to a grey colour to give confirmation the user is selecting the desired link.
- The links are structured to be on the top left hand corner of the browser on desktop and larger tablet. The links (with exception of the logo) are hidden from the bar in smaller tablets and mobiles and are replaced with the hamburger icon. The nav bar is responsive across devices. 
- When viewed on smaller devices the nav menu is initiated by clicking the hamburger icon. The links drop down in a vertical layout. To hide these the user simply clicks the hamburger icon.  
+* ### Logo
+    The logo is an interactive feature that directs the user to the home page. It is a simple text design with the website business name brandAmi.
+* ### Nav Bar 
+    The nav bar contains the links to the various pages or anchor tags on the website. The logo has a deep yellow colour whereas the rest of the bar is a sand yellow color. The text are interactive clickable links and takes the user to the appropriate destination on the website. The brandAmi text links to the homepage. The remaining links direct the user to anchor points on the main home page. When a user hovers over the 'About', 'Criteria' or 'Apply' link it changes from the sand colour to a grey colour to give confirmation the user is selecting the desired link. 
 
-### **Footer**
- The footer exists on all pages. The footer is similar in colour to the header but has a slight gradient colour effect going from darker at the top to light at the bottom. The footer is made up of 4 items. It is structured with 3 columns side by side and the final copyright item below. In smaller tablets or mobile devices the layout changes responsively and are one on top of each other. The first area contains a logo, brief company overview and social icon links. The second contains a list of useful info with contact details. The final is the physical address of the 
+    The links are structured to be on the top left hand corner of the browser on desktop and larger tablet. The links (with exception of the logo) are hidden from the bar in smaller tablets and mobiles and are replaced with the hamburger icon. The nav bar is responsive across devices. 
 
-Bio:
-The first area contains the brandAmi logo which include an illustration icon and text of the company name. Following that is a paragraph with text regarding the company's services, followed by a row of social icons. The social details are appropriate for usage on the site because they allow users to learn more about the site owner's services, products, and companies. This can help the user decide whether or not they want to join the community or use its services. The icons are clickable links. When the user hovers over the icons they change colour which helps the user identify they are selecting the correct link. The links open in a new tab or window on the device. The new tab is vital so the user can easily return to the website page they are on.
+    When viewed on smaller devices the nav menu is initiated by clicking the hamburger icon. The links drop down in a vertical layout. To hide these the user simply clicks the burger icon.
 
-Useful Info: 
-The useful information includes details of contact telephone information and an email address. The email address is a clickable link and when clicked on the devices default mail application opens with the business email in the 'To' field so the user can easily contact the company should they have any questions about the site or services.
-	
-Address: 
-The Address area contains the physical location of the company.
-	
-Copyright:
-The copyright info is located at the bottom of the footer. It contains a brief line of copyright text and illustrates the site is for educational purposes. 
+## Footer
+ The footer exists on all pages. The footer is similar in colour to the header but has a slight gradient colour effect going from darker at the top to light at the bottom. The footer is made up of 4 items. It is structured with 3 columns side by side and the final copyright item below. When viewed on smaller tablets or mobile devices the layout changes responsively and are one on top of each other. The first area contains a logo, brief company overview and social icon links. The second contains a list of useful info with contact details. The final is the physical address of the company. 
 
+ * ### Bio
+    The first area contains the brandAmi logo which include an illustration icon and text of the company name. Following that is a paragraph with text regarding the company's services, followed by a row of social icons. The social details are appropriate for usage on the site because they allow users to learn more about the site owner's services, products, and companies. This can help the user decide whether or not they want to join the community or use its services. The icons are clickable links. When the user hovers over the icons they change colour which helps the user identify they are selecting the correct link. The links open in a new tab or window on the device. The new tab is vital so the user can easily return to the website page they are on.
+* ### Useful Info
+    The useful information includes details of contact telephone information and an email address. The email address is a clickable link and when clicked on the devices default mail application opens with the business email in the 'To' field so the user can easily contact the company should they have any questions about the site or services.
+* ### Address
+    The Address area contains the physical location of the company.
+* ### Copyright
+    The copyright info is located at the bottom of the footer. It contains a brief line of copyright text and illustrates the site is for educational purposes. 
 
+## Homepage (index.html):
+Apart from the header and footer the main homepage contains the about section with hero image and accompanying introductory paragraph, criteria paragraph and interactive video tutorial how to apply and the application area with interactive buttons to apply or learn about instructions how to apply and check eligibility.
+
+### About: 
+This is made up of two columns. The first includes an illustration hero image depicting an individual with multiple devices in the the background. The second column contains an introductory paragraph explaining the services of the company and who the site is suitable for. These columns change in layout with them being side by side in large devices or one on top of the other for smaller tablet and mobile. 
+
+### Criteria area: 
+This is made up of two columns. The first includes text introductory paragraph about necessity of requirements followed by a list of eligibility criteria. The second column contains an interactive video with a tutorial on how to use the site and apply using the eligibility checker. This is a visual aid of steps and potential errors that could be encountered. The video has a set of controls such as play/pause & volume etc. These columns change in layout with them being side by side in large devices or one on top of the other for smaller tablet and mobile. 
+
+### Apply Now area:
+This area contains a form with 'Apply Now' heading, input labels with user data input fields, interactive 'Apply' button. Below the form box is the 'How to Apply' interactive button which provides users with instructions on using the checker and eligibility requirements to be a successful applicant.
+
+* #### Input fields:
+    When a user clicks on an input field to enter data the border changes to a dark yellow color to signify it as being the active field. 
+* #### Apply button:
+    When the user hovers over the 'Apply' button it changes to a dark yellow colour which provides the user confidence they are selecting the button correctly. Upon clicking the 'Apply' button the site carries out defensive programming techniques by way of validation checks on the user data entered or if any entered at all. Inclusion of defensive programming reduces human error and and other risks by anticipating them and designing them out. If invalid or empty data is entered an error message(s) area is prompted to the screen below the 'Apply Now' header. The message area is highlighted in a dark grey background with white text. The different colouring draws user attention to the new information presented which guides the user as to corrections or interaction required. 
+
+## Eligibility checker page (eligible.html):
+Apart from containing the header and footer area the main focal point of the page is the eligibility checker form which is below the 'Eligibility Checker' heading. The Eligibility checker page's main functionality is to determine if the user meets the requirements set to become a brand ambassador. This is achieved through a series of interactive questions the user must answer. The user can only proceed if they answer a question correctly otherwise they are advised with a message they are unsuccessful. Where successful the user is prompted with a message that the company will be in contact within 5 working days. 
+
+The form is aligned in the center of the page which is responsive across devices. It has a grey gradient background that starts lighter on the top and progresses to darker on the bottom. The questions/responses are presented on the top with interactive answer buttons followed by a reset option to the left and a continue button to the right. The form carries out HTML DOM manipulation through Javascript functionality. 
+
+* ### Question and response paragraph area:
+    The questions are stored in a javascript file. These are presented to the user in the paragraph area at the top of the form. The output text shown will change according to the answers selected in the previous question and either show another question or a response of success or fail in the application process. 
+
+* ### Answer Button:
+    The answer buttons are interactive. Intitally they are presented with a navy border and grey background. When the user hovers over an answer the background colour changes to a sand colour and the border to a deep yellow. When the pointer is removed it returns to the initial state colour. This colour change provides the user with confidence they are selecting their desired option. When the user clicks their preferred answer button it changes to a light yellow colour for further confirmation.  
+
+* ### Continue Button:
+    The continue button is an interactive feature. When hovered over it turns a dark yellow colour. When the user clicks on the continue button it checks the answer and if successful the user is presented the next question with answers to select from and continue or reset as desired. If they user selects an answer that does not match the eligibility they are presented a message indicating they do not meet/fulfil requirements. 
+
+* ### Reset Button:
+    The reset button is a feature that allows the user to reset the form back to the first question. When hovered over the button it changes the background colour to the deep yellow colour. When the button is clicked and released the questions are reset.
+
+## 404 Error page (404.html):
+In order to maintain consistency on the site an error 404 page was created. This page is called upon if there is a broken link on the site or when a user enters the wrong address in the address bar. Within the page there is appropriate direction and recommendations to utilise the navigation bar at the top to return to a valid page on the site. The page contains the header and footer as per other pages as well as a Error heading, image with text error '404' on it consistent in design with the main page illustration and a brief paragraph of text advising the user they have stumbled upon a missing page either by way of broken link.  
 
 ## Future Features
 
