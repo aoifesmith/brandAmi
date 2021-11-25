@@ -129,9 +129,19 @@ Company information advising it's services will be added to the opening paragrap
 # The Skeleton Plane
 ## Wireframes
 Wireframes were originally hand sketched designs created to aid planning the website layout. These were then created using Balsamiq. 
-Mobile, Tablet, and Desktop wireframes are all available here with images to follow in the dropdown menu below.
+* Mobile, Tablet, and Desktop wireframes are all available [here.](documentation/wireframes/ba-wireframes-all.pdf) with index.html images below and eligible.html with 404.html to follow in the dropdown menu.
 
-Wireframes Layout Images
+![brandAmi homepage wireframe](documentation/wireframes/ba-wireframes-index-all.png)
+
+<details>
+<summary><u>SEE IMAGES Wireframes  Layout Images</u></summary>
+
+![Eligibility Checker page wireframe](documentation/wireframes/ba-wireframes-eligible-all.png)
+
+![Error404 wireframe styled for site consistency](documentation/wireframes/ba-wireframes-404-all.png)
+
+</details>
+<br>
 
 # The Surface Plane
 ## **Design**
