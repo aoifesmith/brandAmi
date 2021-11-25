@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Information (Scale, Language) -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favicon generated using https://favicon.io/favicon-generator/-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <!-- SEO Meta Information (Author, Description, Keywords) -->
+    <meta name="description" content="A leading brand ambassador partnership programme management company. We expertly pair 
+        and manage brand ambassadors for some of the world’s leading brands.">
+    <meta name="keywords"
+        content="brand ambassador, digital marketing, promotional events, product launch, promotional jobs, brand awareness, SME advertising, digital advertising">
+    <meta name="author" content="brandAmi">
+
+    <!-- Link to external style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/603ef79b4c.js" crossorigin="anonymous"></script>
+
+    <title>brandAmi - Eligibility Checker</title>
+
+</head>
+
+<body>
+    <!-- Begin Header -->
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">brandAmi</a>
+            <a href="/brandAmi/index.html#about-h">About</a>
+            <a href="/brandAmi/index.html#criteria-h">Criteria</a>
+            <a href="/brandAmi/index.html#apply-h">Apply</a>
+            <a href="javascript:void(0);" class="burger" onclick="navFunction()"
+                aria-label="Navigation menu links (Opens menu links for tablets and mobile devices">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <h1>Error 404 Page</h1>
+
+    <!-- Begin error 404 main content -->
+    <div class="flex-container">
+
+        <!-- The 'Error' is made up of 2 areas. The image in the first and the header and text giving a 
+            description of the broken link and why the user has landed on this error page. These utilise 
+            flexbox and are responsive. In larger screen areas the image and text align side by side but 
+            with use of responsive css media queries they change presentation layout to be one on top of the other-->
+        <div class="flex-item-left">
+            <img src="assets/images/404.png" alt="Digital illustration of 404 error page" style="width:100%">
+        </div>
+        <div class="flex-item-right">
+            <h2 id="about-h">OOopsss</h2>
+            <p> It seems we have you have landed here in error. A 404 error is an HTTP status code that means that the
+                page you were trying to reach on a website couldn't be found on the server.</p>
+            <ul>
+                <h2>How to Fix the 404 Not Found Error</h2>
+                <li>Retry the web page by pressing F5, clicking/tapping the refresh/reload button, or trying the URL
+                    from the address bar again.</li>
+                <li>Check for errors in the URL</li>
+                <li>Clear your browser's cache if you have any indication that the 404 message might just be yours.</li>
+                <li>You can return to the main homepage by using the navbar above or use this <a href="index.html"
+                        class="active">link to our homepage</a>.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Begin Footer - The footer is made up a series of sections in their own columns. On large display areas the columns 
+        will be side by side. When viewed on smaller devices the columns change responsively where they line up one on top of 
+        the other by use of flex-box styling and media queries -->
+    <footer class="footer">
+        <!-- The left footer area is made up of the brandAmi logo, a short paragraph about the company and a list of social 
+                media icons. The social media icons when clicked open up in a new tab in their respective website.  -->
+        <div class="footer-left">
+            <img src="assets/images/ba-logo-hr.png" alt="brandAmi logo">
+            <p>brandAmi is a service for empowering businesses by creating awareness of their products through active
+                engagement in social media. Be a part of our ever expanding community of brand ambassadors. Apply Now!
+            </p>
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Follow us on our Facebook page (opens in a new tab)"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Follow us on our Twitter page (opens in a new tab)"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Follow us on our YouTube page (opens in a new tab)"><i class="fa fa-youtube"></i></a>
+                <a href="https://github.com/aoifesmith" target="_blank" rel="noopener"
+                    aria-label="Follow site developers page (opens in a new tab)"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- The right footer area is made up of two sections of data. One contains the contact numbers and email address 
+                and the other the address in over a series of list lines. When the email is clicked it opens up the default mail 
+                system where the user can send an email to the company. These are responsive features and change layout from side by 
+                side on larger devices to one after the other in smaller devices-->
+
+        <ul class="footer-right">
+            <li>
+                <h2>Useful Info</h2>
+                <ul class="f-box">
+                    <li>T: 01 8251512</li>
+                    <li>M: 085 251512</li>
+                    <li><a href="mailto:contact@brandAmi.com" target="_blank" rel="noopener"
+                            aria-label="Email us (opens default email with email address in To)">Email Us</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Address</h2>
+                <ul class="f-box">
+                    <li>123 Somewhere</li>
+                    <li>Ficticiousland</li>
+                    <li>TYEP182</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="footer-bottom">
+            <p>For Educational purposes only. ©brandAmi 2021</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- script containing the nav bar responsive functionality -->
+    <script src="assets/js/eligible.js"></script>
+</body>
+
+</html>
