@@ -148,6 +148,8 @@ Wireframes were originally hand sketched designs created to aid planning the web
 ## Imagery
 The logo is a simple yellow design with the company name and an icon that combines the letters 'b' and 'a'. It is a custom created design made using the ios Procreate app. A variety of options was created and included square, vertical, horizontal sizes with and without transparent backgrounds. From Pixabay to Unsplash, research was conducted on a number of free photography websites. As the research progressed, the concept of using illustrations instead became a was deemed more appropriate as they are modern and contemporary and could cater to a wide range of people through the usage of diverse colors. Undraw provided the illustrations that were finally approved for usage.
 
+![brandAmi Logo Creation Process](documentation/images/brandami-logo-creation-process.png)
+
 The 'About' section's hero picture is a simple representation of a person with a number of computer devices behind them. Because social media is at the forefront of it, having an illustration with the devices was thought acceptable to the services of the business. To ensure uniformity & consistency across the site, the image was carefully altered to use the same hex color as the brand logo.
 
 In order to amplify this consistency in the look and feel of the website all images were then altered using the colour scheme settled on for the site. The images were compressed using the site tinypng to help improve site loading time performance and prevent user delay wait times. When tinypng was not implemented images that were sent from the developer’s iPad through the mail app selected either the small or medium size selection keeping kbs sizes as low as possible without losing integrity of the image or pixilation issues.
@@ -168,7 +170,7 @@ A favicon was created on the [Favicon.io](https://favicon.io/) website using the
 
 
 ## Differences to Design
-All features listed in the Structure Plane were implemented as per design. A custom 404 page was added to the website that contains an link to allow the user to direct back to the home page if they try to access a page that is not available.
+All features listed in the Structure Plane were implemented as per design. A custom 404 page was added to the website that contains a link to allow the user to direct back to the home page if they try to access a page that is not available.
 
 # Features
 ## **Existing Features**
@@ -177,19 +179,32 @@ All pages have a header and footer.
 ## Header
 The header contains the logo and the menu navigation links. This is located at the top of every page. 
 
-![Header]()
+![Header Navbar - Desktop Layout](documentation/images/features/nav-bar-large-devices.JPG)
 
 * ### Logo
-    The logo is an interactive feature that directs the user to the home page. It is a simple text design with the website business name brandAmi.
+    The logo in the header is an interactive feature that directs the user to the home page. It is a simple text design with the website business name brandAmi.
+   
 * ### Nav Bar 
     The nav bar contains the links to the various pages or anchor tags on the website. The logo has a deep yellow colour whereas the rest of the bar is a sand yellow color. The text are interactive clickable links and takes the user to the appropriate destination on the website. The brandAmi text links to the homepage. The remaining links direct the user to anchor points on the main home page. When a user hovers over the 'About', 'Criteria' or 'Apply' link it changes from the sand colour to a grey colour to give confirmation the user is selecting the desired link. 
 
-    The links are structured to be on the top left hand corner of the browser on desktop and larger tablet. The links (with exception of the logo) are hidden from the bar in smaller tablets and mobiles and are replaced with the hamburger icon. The nav bar is responsive across devices. 
+    The links are structured to be on the top left hand corner of the browser on desktop and larger tablet devices. The links (with exception of the logo) are hidden from the bar in smaller tablets and mobiles and are replaced with the burger icon. The nav bar is responsive across devices. 
 
-    When viewed on smaller devices the nav menu is initiated by clicking the hamburger icon. The links drop down in a vertical layout. To hide these the user simply clicks the burger icon.
+    When viewed on smaller devices the nav menu is initiated by clicking the burger icon. The links drop down in a vertical layout. To hide these the user simply clicks the burger icon. This is immplemented using Javascript functionality.
 
+    <details>
+    
+    <summary><u>SEE IMAGES below</u></summary>
+
+    ![Text Logo](documentation/images/features/header-text-logo-nav.jpg)
+    ![Navbar - Burger Icon Mobile Devices](documentation/images/features/nav-bar-responsive-burger.jpg)
+    ![Navbar - Vertical Dropdown Links](documentation/images/features/nav-bar-responsive-links-mobile.JPG)
+
+    </details>
+<br>
+ 
 ## Footer
  The footer exists on all pages. The footer is similar in colour to the header but has a slight gradient colour effect going from darker at the top to light at the bottom. The footer is made up of 4 items. It is structured with 3 columns side by side and the final copyright item below. When viewed on smaller tablets or mobile devices the layout changes responsively and are one on top of each other. The first area contains a logo, brief company overview and social icon links. The second contains a list of useful info with contact details. The final is the physical address of the company. 
+ ![Footer - Desktop Layout](documentation/images/features/footer-d.png)
 
  * ### Bio
     The first area contains the brandAmi logo which include an illustration icon and text of the company name. Following that is a paragraph with text regarding the company's services, followed by a row of social icons. The social details are appropriate for usage on the site because they allow users to learn more about the site owner's services, products, and companies. This can help the user decide whether or not they want to join the community or use its services. The icons are clickable links. When the user hovers over the icons they change colour which helps the user identify they are selecting the correct link. The links open in a new tab or window on the device. The new tab is vital so the user can easily return to the website page they are on.
@@ -200,7 +215,16 @@ The header contains the logo and the menu navigation links. This is located at t
 * ### Copyright
     The copyright info is located at the bottom of the footer. It contains a brief line of copyright text and illustrates the site is for educational purposes. 
 
+    <details>
+    <summary><u>SEE IMAGES Below of footer features in responsive mobile layout</u></summary>
+
+    ![Footer - Mobile Layout](documentation/images/features/footer-t-m.JPG)
+
+    </details>
+    <br>  
+
 ## Homepage (index.html):
+
 Apart from the header and footer the main homepage contains the about section with hero image and accompanying introductory paragraph, criteria paragraph and interactive video tutorial how to apply and the application area with interactive buttons to apply or learn about instructions how to apply and check eligibility.
 
 ### About: 
@@ -218,6 +242,8 @@ This area contains a form with 'Apply Now' heading, input labels with user data 
     When the user hovers over the 'Apply' button it changes to a dark yellow colour which provides the user confidence they are selecting the button correctly. Upon clicking the 'Apply' button the site carries out defensive programming techniques by way of validation checks on the user data entered or if any entered at all. Inclusion of defensive programming reduces human error and and other risks by anticipating them and designing them out. If invalid or empty data is entered an error message(s) area is prompted to the screen below the 'Apply Now' header. The message area is highlighted in a dark grey background with white text. The different colouring draws user attention to the new information presented which guides the user as to corrections or interaction required. 
 
 ## Eligibility checker page (eligible.html):
+![eligible.html - Desktop & Tablet Layout](documentation/images/features/eligible-dt-layout.jpg)
+<br>
 Apart from containing the header and footer area the main focal point of the page is the eligibility checker form which is below the 'Eligibility Checker' heading. The Eligibility checker page's main functionality is to determine if the user meets the requirements set to become a brand ambassador. This is achieved through a series of interactive questions the user must answer. The user can only proceed if they answer a question correctly otherwise they are advised with a message they are unsuccessful. Where successful the user is prompted with a message that the company will be in contact within 5 working days. 
 
 The form is aligned in the center of the page which is responsive across devices. It has a grey gradient background that starts lighter on the top and progresses to darker on the bottom. The questions/responses are presented on the top with interactive answer buttons followed by a reset option to the left and a continue button to the right. The form carries out HTML DOM manipulation through Javascript functionality. 
@@ -236,6 +262,7 @@ The form is aligned in the center of the page which is responsive across devices
 
 ## 404 Error page (404.html):
 In order to maintain consistency on the site an error 404 page was created. This page is called upon if there is a broken link on the site or when a user enters the wrong address in the address bar. Within the page there is appropriate direction and recommendations to utilise the navigation bar at the top to return to a valid page on the site. The page contains the header and footer as per other pages as well as a Error heading, image with text error '404' on it consistent in design with the main page illustration and a brief paragraph of text advising the user they have stumbled upon a missing page either by way of broken link.  
+![404.html - Desktop & Tablet Layout](documentation/images/features/404-dt-layout.jpg)
 
 ## Future Features
 
