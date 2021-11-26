@@ -227,6 +227,9 @@ The header contains the logo and the menu navigation links. This is located at t
 
 Apart from the header and footer the main homepage contains the about section with hero image and accompanying introductory paragraph, criteria paragraph and interactive video tutorial how to apply and the application area with interactive buttons to apply or learn about instructions how to apply and check eligibility.
 
+![Homepage - Desktop & Tablet Layout](documentation/images/features/index-dt-layout.png)
+<br> 
+
 ### About: 
 This is made up of two columns. The first includes an illustration hero image depicting an individual with multiple devices in the the background. The second column contains an introductory paragraph explaining the services of the company and who the site is suitable for. These columns change in layout with them being side by side in large devices or one on top of the other for smaller tablet and mobile. 
 
