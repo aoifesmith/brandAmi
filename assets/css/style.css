@@ -76,6 +76,10 @@ video {
     height: auto;
 }
 
+.h-bull {
+    list-style-type: none;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
