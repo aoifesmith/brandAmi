@@ -159,6 +159,21 @@ The colour scheme was inspired by the name of the business. As this is a fictiti
 
 These were then tested for contrast ratios in order to ensure they would pass accessibility requirements. By ensuring this step was carried out the result would be to the benefit of those with visual impairments. Where it was deemed necessary to slightly alter the colour value to achieve higher accessibility ratio results amendments were then made. These were only done whereby the integrity of the design was to be maintained. See Color Contrast Test Report.
 
+#fff     --white
+#fffbee  --greige
+#efece1  --light-grey 
+#aaa     --dark-grey
+#ffce24  --yellow: 
+#f7e39d  --sand: 
+#f7f46c  --yellow-light
+#404040  --deep-grey
+#364a62  --navy: 
+#271f30  --midnight-blue:
+#111     --black:
+#000     --black:
+
+![Colour Contrast Grid](documentation/testing/accesibility/grid-contrast-colors.png)
+
 ## Typography
 Research was carried out on a number of fonts for the website. An important consideration was in the area of accessibility. Given the modern and contemporary business approach the decision was to use a clear san-serif font. The site is to appeal to a wide variety of users and so keeping the typography in an easily readable font was of significant importance. A number of tests and comparisons were carried out matching various suitable fonts and seeing how they looked compared against each other. The fonts were rotated to see what differences were when swapped from header to paragraph text. 
 
