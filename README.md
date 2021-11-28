@@ -395,17 +395,47 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 
 # Testing
 ## Validator Testing
+Validator testing was carried out on all pages on the site using W3C HTML Validator for HTML and Jigsaw validator for CSS and JShint for Javascript. See [Full Validation Testing results Report for HTML, CSS & JS](documentation/testing/validation/validation-all.pdf)
+
+* There were no errors or warnings for all html pages where code was directly input. HTML was validated on all html pages using [W3C HTML validator](https://validator.w3.org/).
+
+* There were no errors or warnings when for CSS deployed site was input. CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator).
+
+* There were no errors for CSS but a warning when code was directly input that related to the use of the font import. 
+
+* Javascript was validated using [JSHint](https://jshint.com/). There were no errors for either Javascript files.  
+
 ## Bugs
 
 ## Manual Testing
+The site was tested manually such as checking links, features were working and interactivity was successful. See more in the 
+[Manual Testing Report](documentation/testing/manual-testing.pdf). A run through of data input validation testing can be seen on the [YouTube Tutorial Video](https://youtu.be/snVB-WAbZ5M) highlighting the use of  defensive programming techniques of userinput data. Other examples such of testing included but not exhaustive to the 'Apply' button functionality, if 'How to Apply' functionality opened correctly, if email apps would correctly open upon interacting with the email link in the footer. Testing to see if the telephone contact number would successfully work when hovered over in mobile devices.
+
+<details>
+<summary>Email & Telephone Success</summary>
+
+![Email success contact feature](documentation/images/features/email.png)
+![Telephone success contact feature](documentation/images/features/phone-calls.png)
+</details>
+
 ## Accessibility
 
+Accessibility was researched in order to explore best practice for design based around accessibility including colour contract and better user experiences.
+
+* Aria labelling was implemented on all pages.
+* Results from Lighthouse testing passed all for accessibility. See full [Lighthouse Accessibility Report](documentation/testing/accesibility/lighthouse-all-pages.pdf). 
+
+![Lighthouse Report - Homepage](documentation/testing/accesibility/lighthouse-index.png)
+
+* Consulted WAVE website for accessibility which passed without errors. See full report [Wave- all pages](documentation/testing/accesibility/wave-all-pages.pdf)
+
+![WebaimAccessibility](documentation/testing/accesibility/wave-all-pages.png)
 
 # Credits
 ## Imagery & Video
 * Hero & 404 Illustration images - [Undraw](http://https://undraw.co/illustrations) - Opensource illustrations edited to incorporate yellow hex design colour
-* Logo - Custom created logo using [Procreate] ios App (https://apps.apple.com/us/app/procreate/id425073498)
-* Video - Custom made video using screen recording feature on iPad
+* Logo - Custom created logo using [Procreate ios App](https://apps.apple.com/us/app/procreate/id425073498)
+* Video - Custom made video using screen recording feature on iPad using Splice Video Editor and [Spik.ai](https://spik.ai/) artificial intelligence software to generate speech from text.
 
 ## Code
 | Code                                                  | Name                     | Source                                                                                                                                                            |
@@ -416,4 +446,6 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 | Coding an Interactive Sign up Form in Plain Javascript | PortEXE                | [PortEXE](https://www.youtube.com/watch?v=gOsJRyqzHtI&t=115s) |
 | Build A Text Adventure Game With JavaScript | Web Dev Simplified                | [Text Adventure](https://codepen.io/WebDevSimplified/pen/xoKZbd) |
 | CSS Variables - The var() Function | W3 Schools  | [var() Function](https://www.w3schools.com/css/css3_variables.asp) |
+
 ## Acknowledgments
+Mentor Daisy for reassurances and helpful guidance on meetings. The incredible CI community & fellow students with particular mention to the legend that is Liz Conway_5P. A formidable force of support & voice of reason providing gentle nudges to motivate into action. ;)
