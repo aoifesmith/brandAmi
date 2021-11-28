@@ -315,6 +315,7 @@ In order to maintain consistency on the site an error 404 page was created. This
  *  [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
  *  [GitHub Mobile](https://github.com/mobile)
  *  [Procreate](https://apps.apple.com/us/app/procreate/id425073498)
+ *  [cloudconvert](https://cloudconvert.com/mov-to-mp4)
  * [Trello- Project management](https://trello.com) 
    Throughout the all stages the project management app Trello was utilized. It aided in organising to do checklists, set reminders, organising images and documentation as well as an area to place ideas. Lists were created for Planning, Content, Git & To do Code checklists, Mentor, Readme.md, Accessibility and Testing. These lists contained cards for note taking, research, scheduling mentor meetings, collation of admin, testing with checklists and screenshots of results. Files were added to cards such as images sourced or other relevant documentation. Some cards were set up with due dates which were connected to the developer’s email if getting close to deadline a reminder was sent. The management app was helpful to keep on track and focus on prioritized items within the project.
 
@@ -440,7 +441,7 @@ Accessibility was researched in order to explore best practice for design based 
 ## Imagery & Video
 * Hero & 404 Illustration images - [Undraw](http://https://undraw.co/illustrations) - Opensource illustrations edited to incorporate yellow hex design colour
 * Logo - Custom created logo using [Procreate ios App](https://apps.apple.com/us/app/procreate/id425073498)
-* Video - Custom made video using screen recording feature on iPad using Splice Video Editor and [Spik.ai](https://spik.ai/) artificial intelligence software to generate speech from text.
+* Video - Custom made video using screen recording feature on iPad. The video was edited using Splice Video Editor and [Spik.ai](https://spik.ai/) artificial intelligence software to generate speech from text. The audio was split at various points of the video in order to line up with the what was happening in the video. The video was converted from a .mov file to .mp4 using cloudconvert MOV to MP4 Converter.
 
 ## Code
 | Code                                                  | Name                     | Source                                                                                                                                                            |
