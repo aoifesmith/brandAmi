@@ -259,6 +259,8 @@ This area contains a form with 'Apply Now' heading, input labels with user data 
 * #### Apply button:
     When the user hovers over the 'Apply' button it changes to a dark yellow colour which provides the user confidence they are selecting the button correctly. Upon clicking the 'Apply' button the site carries out defensive programming techniques by way of validation checks on the user data entered or if any entered at all. Inclusion of defensive programming reduces human error and and other risks by anticipating them and designing them out. If invalid or empty data is entered an error message(s) area is prompted to the screen below the 'Apply Now' header. The message area is highlighted in a dark grey background with white text. The different colouring draws user attention to the new information presented which guides the user as to corrections or interaction required. 
 
+![User Data Input Defensive Programming Validation](documentation/images/features/defensive-programming-validation.jpg)
+
 ## Eligibility checker page (eligible.html):
 ![eligible.html - Desktop & Tablet Layout](documentation/images/features/eligible-dt-layout.jpg)
 <br>
@@ -277,6 +279,8 @@ The form is aligned in the center of the page which is responsive across devices
 
 * ### Reset Button:
     The reset button is a feature that allows the user to reset the form back to the first question. When hovered over the button it changes the background colour to the deep yellow colour. When the button is clicked and released the questions are reset.
+
+![Screenshot of eligible scenario success & fail, background colour change upon click](documentation/images/features/eligibile-scenario.jpg)
 
 ## 404 Error page (404.html):
 In order to maintain consistency on the site an error 404 page was created. This page is called upon if there is a broken link on the site or when a user enters the wrong address in the address bar. Within the page there is appropriate direction and recommendations to utilise the navigation bar at the top to return to a valid page on the site. The page contains the header and footer as per other pages as well as a Error heading, image with text error '404' on it consistent in design with the main page illustration and a brief paragraph of text advising the user they have stumbled upon a missing page either by way of broken link.  
@@ -406,6 +410,7 @@ Validator testing was carried out on all pages on the site using W3C HTML Valida
 * Javascript was validated using [JSHint](https://jshint.com/). There were no errors for either Javascript files.  
 
 ## Bugs
+During the course of the creation of the website a number of bugs were highlighted and addressed along the way. See [Bug Report](documentation/testing/bugs-report.pdf) for some of the issues documented.
 
 ## Manual Testing
 The site was tested manually such as checking links, features were working and interactivity was successful. See more in the 
