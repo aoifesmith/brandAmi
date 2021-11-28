@@ -1,8 +1,47 @@
 # brandAmi Ambassador Eligibility Checker
 By: [Aoife, Smith](mailto:aoifesmithy@hotmail.com), November 2021<br>
-This website has been created as a second portfolio for the Code Institute's Full Stack Software Development Course. This is a fictitious site. The site is a brand ambassador service that is expanding its community of brand ambassadors for its clients and products it is aligned with. 'Ami' is the French translation of 'friend'. The live website can be found [here](https://aoifesmith.github.io/brandAmi)
+This website has been created as a second portfolio for the Code Institute's Full Stack Software Development Course. This is a fictitious site. The site is a brand ambassador service that is expanding its community of brand ambassadors for its clients and products it is aligned with. 'Ami' is the French translation of 'friend'. 
+
+The live website can be found [here](https://aoifesmith.github.io/brandAmi)
 
 ![brandAmi Responsive Design Layouts](documentation/images/amiresponsive.png)
+
+ ## Table of Contents
+* [User Experience Design](#User-Experience-Design)
+    * [The Strategy Plane](#The-Strategy-Plane)
+		* [Purpose](#Purpose)
+		* [How does it work?](#How-does-it-work)
+		* [Site Goals](#Site-Goals)
+        * [User stories](#User-Stories)
+    * [The Scope Plane](#The-Scope-Plane)
+    * [The Structure Plane](#The-Structure-Plane)
+    * [The Skeleton Plane](#The-Skeleton-Plane)
+        * [Wireframes](#Wireframes)
+    * [The Surface Plane](#The-Surface-Plane)
+        * [Design](#Design)
+			* [Imagery](#Imagery)
+            * [Colour Scheme](#Colour-Scheme)
+            * [Typography](#Typography)
+            * [Favicon](#Favicon)         
+    * [Differences to Design](#Differences-to-Design)
+- [Features](#Features)
+    * [Existing Features](#Existing-Features)
+    * [Future Features](#Future-Features)
+* [Technologies Used](#Technologies-Used)
+* [Deployment](#Deployment)
+    * [Repository Setup on GitHub](#Repository-Setup-on-GitHub)
+    * [Workspace on GitPod](#Workspace-on-GitPod)
+    * [Deploy on GitHub](Deploy-on-GitHub)
+    * [Forking a GitHub Repository](Forking-a-GitHub-Repository)
+* [Testing](#Testing)
+    * [Validator Testing](#Validator-Testing)
+    * [Bugs](#Bugs)
+    * [Manual Testing](#Manual-Testing)
+    * [Accessibility](#Accessibility)
+* [Credits](#Credits)
+  * [Imagery, Video & Text](#Imagery-Video-Text)
+  * [Code](#Code)
+  * [Acknowledgements](#Acknowledgements)
 
 # User Experience Design
 
@@ -363,6 +402,7 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 
 </details>
 <br>
+
 ## Deploy on GitHub
 
 1. On GitHub, navigate to your repositories.
@@ -438,10 +478,11 @@ Accessibility was researched in order to explore best practice for design based 
 ![WebaimAccessibility](documentation/testing/accesibility/wave-all-pages.png)
 
 # Credits
-## Imagery & Video
+## Imagery, Video & Text
 * Hero & 404 Illustration images - [Undraw](http://https://undraw.co/illustrations) - Opensource illustrations edited to incorporate yellow hex design colour
 * Logo - Custom created logo using [Procreate ios App](https://apps.apple.com/us/app/procreate/id425073498)
 * Video - Custom made video using screen recording feature on iPad. The video was edited using Splice Video Editor and [Spik.ai](https://spik.ai/) artificial intelligence software to generate speech from text. The audio was split at various points of the video in order to line up with the what was happening in the video. The video was converted from a .mov file to .mp4 using cloudconvert MOV to MP4 Converter.
+* Text Content - All text content is my own. 
 
 ## Code
 | Code                                                  | Name                     | Source                                                                                                                                                            |
