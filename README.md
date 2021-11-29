@@ -326,6 +326,7 @@ In order to maintain consistency on the site an error 404 page was created. This
 ![404.html - Desktop & Tablet Layout](documentation/images/features/404-dt-layout.jpg)
 
 ## Future Features
+Increase the diversity of questions and data input requests from the user to categorize the successful candidates into different tiered programs such as bronze, silver & gold. 
 
 # Technologies Used
 * ## Languages
