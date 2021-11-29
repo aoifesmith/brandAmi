@@ -377,7 +377,7 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 1. Open GitHub in the browser.
 2. Sign in with username and password.
 3. Navigate to "Your repositories".
-4. The portfolio 2 site was initially created using the code-institute-full-template repository available from the Code Institute. Upon navigating to the template link the "Use this template" button was selected.
+4. The portfolio 2 site was initially created using the [code-institute-full-template](https://github.com/Code-Institute-Org/gitpod-full-template) repository available from the Code Institute. Upon navigating to the template link the "Use this template" button was selected.
 
 ## Workspace on GitPod
 1. Enter the name of the Repository 
