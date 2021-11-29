@@ -84,7 +84,6 @@ submit.addEventListener('mouseup', function () { //when a button on a pointing d
   if (response) {
     criteria++; //increment or add 1 to
     populateForm(criteria + '_' + response); //if a radio is checked populate form with the response
-    console.log("Application Worked!"); // Console log to make sure things are working
   }
 });
 

@@ -411,7 +411,7 @@ This project was created using [Gitpod](https://gitpod.io/) and deployed on [Git
 4. In the left sidebar, select Pages.
 5. Under the GitHub Pages from the source section drop-down menu, select the main branch.
 6. Upon correct selection and saving of the main branch, refresh the page and the site is successfully deployed.
-7. The site is published with the live site address provided.
+7. The site is published with the live site address provided. [https://aoifesmith.github.io/brandAmi/](https://aoifesmith.github.io/brandAmi/)
 
 <details>
 <summary><u>SEE IMAGES below of deployment walk through</u></summary>
