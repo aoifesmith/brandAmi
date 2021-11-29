@@ -10,6 +10,10 @@ function navFunction() {
   }
 }
 
+/*Code for eligibility checker inspired by and adapted from WebDevSimplified Text Adventure Build A Text Adventure Game With JavaScript
+https://www.youtube.com/watch?v=R1S_NhKkvGA&t=8s https://codepen.io/WebDevSimplified/pen/xoKZbd & 
+Choose Your Own Adventure Game with JavaScript https://www.youtube.com/watch?v=PQrHtlakF6o */
+
 let criteria = 0; // keeps criteria from being undefined 
 let form = document.getElementById('appForm'); // get the element with matching ids
 let submit = document.getElementById('continueButton');
