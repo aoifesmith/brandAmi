@@ -457,7 +457,7 @@ Validator testing was carried out on all pages on the site using W3C HTML Valida
 * Javascript was validated using [JSHint](https://jshint.com/). There were no errors for either Javascript files.  
 
 ## Bugs
-During the course of the creation of the website a number of bugs were highlighted and addressed along the way. See [Bug Report](documentation/testing/bugs-report.pdf) for some of the issues documented.
+During the course of the creation of the website a number of bugs were highlighted and addressed along the way. See [Bug Report](documentation/testing/bugs-report.pdf) for some of the issues documented. Note: Close to submission added final code credits to comments. To be safe followed up validator testing on all files and received an error on 404.html with duplicate class. REmoved the duplicate and ran through validator which passes with no errors. Updated Bug Report to reflect. 
 
 ## Manual Testing
 The site was tested manually such as checking links, features were working and interactivity was successful. See more in the 
