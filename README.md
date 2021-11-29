@@ -41,7 +41,7 @@ The live website can be found [here](https://aoifesmith.github.io/brandAmi)
 * [Credits](#Credits)
   * [Imagery, Video & Text](#Imagery-Video-Text)
   * [Code](#Code)
-  * [Acknowledgements](#Acknowledgements)
+  * [Acknowledgments](#Acknowledgments)
 
 # User Experience Design
 
