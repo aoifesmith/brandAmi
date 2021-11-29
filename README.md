@@ -191,6 +191,8 @@ The logo is a simple yellow design with the company name and an icon that combin
 
 The 'About' section's hero picture is a simple representation of a person with a number of computer devices behind them. Because social media is at the forefront of it, having an illustration with the devices was thought acceptable to the services of the business. To ensure uniformity & consistency across the site, the image was carefully altered to use the same hex color as the brand logo.
 
+![Hero image](assets/images/devices.png)
+
 In order to amplify this consistency in the look and feel of the website all images were then altered using the colour scheme settled on for the site. The images were compressed using the site tinypng to help improve site loading time performance and prevent user delay wait times. When tinypng was not implemented images that were sent from the developer’s iPad through the mail app selected either the small or medium size selection keeping kbs sizes as low as possible without losing integrity of the image or pixilation issues.
 
 ## Colour Scheme
