@@ -1,5 +1,6 @@
 # brandAmi Ambassador Eligibility Checker
-By: [Aoife, Smith](mailto:aoifesmithy@hotmail.com), November 2021<br>
+By: [Aoife, Smith](mailto:aoifesmithy@hotmail.com), November 2021
+
 This website has been created as a second portfolio for the Code Institute's Full Stack Software Development Course. This is a fictitious site. The site is a brand ambassador service that is expanding its community of brand ambassadors for its clients and products it is aligned with. 'Ami' is the French translation of 'friend'. 
 
 The live website can be found [here](https://aoifesmith.github.io/brandAmi)
@@ -49,7 +50,7 @@ The live website can be found [here](https://aoifesmith.github.io/brandAmi)
 The site should be intuitive to use. The site provides users with an eligibility checker form created using JavaScript, HTML & CSS. The eligibility checker should be easy to understand, simple to interactive with and give feedback to the user on inputs.
 
 ## Purpose
-The site’s purpose is to check eligibility of candidates/applicants who want to apply to become an ambassador. The site provides information to create awareness of the company and its services. It provides an application form for a user to fill out which determines if an applicant meets the eligibility criteria to become a brand ambassador. It processes user input information carrying out defensive programming techniques with validation checks on user input in order. If they do not meet criteria they will be unsuccessful in their application. The benefit of the app is to save time on a screening process not allowing a user to proceed with application if they do not meet requirements. Inclusion of defensive programming reduces human error and other risks by anticipating them and designing them out. A video tutorial is included on the site with instructions on how to apply and the eligibility criteria to be met to be a successful applicant. Information about the company, useful links and social profiles are provided for the user to create awareness of the company.
+The site’s purpose is to check eligibility of candidates/applicants who want to apply to become an ambassador. The site provides information to create awareness of the company and its services. It provides an application form for a user to fill out which determines if an applicant meets the eligibility criteria to become a brand ambassador. It processes user input information carrying out defensive programming techniques with validation checks on user input. If they do not meet criteria they will be unsuccessful in their application. The benefit of the app is to save time on a screening process not allowing a user to proceed with application if they do not meet requirements. Inclusion of defensive programming reduces human error and other risks by anticipating them and designing them out. A video tutorial is included on the site with instructions on how to apply and the eligibility criteria to be met to be a successful applicant. Information about the company, useful links and social profiles are provided for the user to create awareness of the company.
 
 ## How does it work?
 The website provides an application form which determines eligibility of applicant to become a brand ambassador with brandAmi. The user inputs their data during the application process. The site responds to the users' actions, allowing users to actively engage with data, and alter the way the site displays the information to achieve their preferred goals.
@@ -71,7 +72,7 @@ The website provides an application form which determines eligibility of applica
 3. As a user, I want to have instructions on how use the eligibility checker so that I can easily understand the process and requirements.
 4. As a user, I want to learn what the eligibility requirements are to become a brand ambassador so I can ensure I meet criteria to become a successful applicant.
 5. As a user, I want to be alerted to any errors I make during my application process.
-6. As a user, I want to be advised if I have been successful in my application so I will be informed as to whether I need to reapply or wait upon instruction as a confirmed candidate..
+6. As a user, I want to be advised if I have been successful in my application so I will be informed as to whether I need to reapply or wait upon instruction as a confirmed candidate.
 7. As a user, I want to be offered the opportunity to reset the application process. 
 8. As a user, I want to be provided with contact information for the site owner in case I want to reach out with any queries I have about the site.
 9. As a site owner I want to be able to provide users a brief overview of the company so users can be informed what the company does.
@@ -159,7 +160,7 @@ If the user wants to return to the initial eligibility checker questions they ca
 Contact information will be added to the footer. This will contain a name and email for the site owner.
 
 ## User Story 9:
-* As a site owner I want to be able to provide users a brief overview of the company so users can be informed what the company does*
+*As a site owner I want to be able to provide users a brief overview of the company so users can be informed what the company does*
 ### Acceptance Criteria:
 * Company services info displayed in the About opening paragraph on main page. 
 ### Description:
@@ -185,18 +186,20 @@ Wireframes were originally hand sketched designs created to aid planning the web
 # The Surface Plane
 ## **Design**
 ## Imagery
-The logo is a simple yellow design with the company name and an icon that combines the letters 'b' and 'a'. It is a custom created design made using the ios Procreate app. A variety of options was created and included square, vertical, horizontal sizes with and without transparent backgrounds. From Pixabay to Unsplash, research was conducted on a number of free photography websites. As the research progressed, the concept of using illustrations instead became a was deemed more appropriate as they are modern and contemporary and could cater to a wide range of people through the usage of diverse colors. Undraw provided the illustrations that were finally approved for usage.
+The logo is a simple yellow design with the company name, brandAmi, and an icon that combines the letters 'b' and 'a'. It is a custom created design made using the ios Procreate app. A variety of options was created and included square, vertical, horizontal sizes with and without transparent backgrounds. 
 
 ![brandAmi Logo Creation Process](documentation/images/brandami-logo-creation-process.png)
 
-The 'About' section's hero picture is a simple representation of a person with a number of computer devices behind them. Because social media is at the forefront of it, having an illustration with the devices was thought acceptable to the services of the business. To ensure uniformity & consistency across the site, the image was carefully altered to use the same hex color as the brand logo.
+From Pixabay to Unsplash, research was conducted on a number of free photography websites. As the research progressed, the concept of using illustrations instead became a was deemed more appropriate as they are modern and contemporary and could cater to a wide range of people through the usage of diverse colors. Undraw provided the illustrations that were finally approved for usage.
+
+The 'About' section's hero picture is a simple representation of a person with a number of computer devices behind them. Because social media is at the forefront of it, having an illustration with the devices was thought acceptable to the services of the business. To ensure uniformity & consistency across the site, the image was carefully altered to use the same yellow hex color (#ffce24) as the brand logo.
 
 ![Hero image](assets/images/devices.png)
 
-In order to amplify this consistency in the look and feel of the website all images were then altered using the colour scheme settled on for the site. The images were compressed using the site tinypng to help improve site loading time performance and prevent user delay wait times. When tinypng was not implemented images that were sent from the developer’s iPad through the mail app selected either the small or medium size selection keeping kbs sizes as low as possible without losing integrity of the image or pixilation issues.
+In order to amplify this consistency in the look and feel of the website remaining images were then altered using the colour scheme settled on for the site e.g. the 404 page image. The images were compressed using the site tinypng to help improve site loading time performance and prevent user delay wait times. When tinypng was not implemented images that were sent from the developer’s iPad through the mail app selected either the small or medium size selection keeping kbs sizes as low as possible without losing integrity of the image or pixilation issues.
 
 ## Colour Scheme
-The colour scheme was inspired by the name of the business. As this is a fictitious site a number of business names were considered. Given the nature of the site was for brand ambassadors the name ‘Ami’ was considered. It is the French translation of friend. brandAmi was the final outcome. With the word ‘friend’ in mind research on colours began. Yellow is the colour associated with friendship. Positive, sunny and optimistic, yellow is energetic and eye-catching – and particularly effective for point-of-sale messaging, as it's proven to catch the eye quicker than any other colour. From this the colour scheme evolved. Colours including various shades of yellow, blue and grey were run through a number of different colour generators (Brandfolder, Coolors, Procreate) until finally settling upon. Image Color Testing Report 
+The colour scheme was inspired by the name of the business. As this is a fictitious site a number of business names were considered. Given the nature of the site was for brand ambassadors the name ‘Ami’ was considered. It is the French translation of friend. brandAmi was the final outcome. With the word ‘friend’ in mind research on colours began. Yellow is the colour associated with friendship. Positive, sunny and optimistic, yellow is energetic and eye-catching – and particularly effective for point-of-sale messaging, as it's proven to catch the eye quicker than any other colour. From this the colour scheme evolved. Colours including various shades of yellow, blue and grey were run through a number of different colour generators (Brandfolder, Coolors, Procreate) until finally settling upon. See Image Color Contrast Testing Grid Image below.
 
 These were then tested for contrast ratios in order to ensure they would pass accessibility requirements. By ensuring this step was carried out the result would be to the benefit of those with visual impairments. Where it was deemed necessary to slightly alter the colour value to achieve higher accessibility ratio results amendments were then made. These were only done whereby the integrity of the design was to be maintained. See Color Contrast Test Report.
 
@@ -281,7 +284,7 @@ The header contains the logo and the menu navigation links. This is located at t
 
 ## Homepage (index.html):
 
-Apart from the header and footer the main homepage contains the about section with hero image and accompanying introductory paragraph, criteria paragraph and interactive video tutorial how to apply and the application area with interactive buttons to apply or learn about instructions how to apply and check eligibility.
+Apart from the header and footer the main homepage contains the about section with hero image and accompanying introductory paragraph, criteria paragraph and interactive video tutorial (contains a visual & voice narration walk-through of how to apply with multiple examples of errors in application), the application apply area with fields for user data input, interactive buttons to apply or learn about instructions how to apply to proceed with checking eligibility.
 
 ![Homepage - Desktop & Tablet Layout](documentation/images/features/index-dt-layout.png)
 <br> 
@@ -290,7 +293,7 @@ Apart from the header and footer the main homepage contains the about section wi
 This is made up of two columns. The first includes an illustration hero image depicting an individual with multiple devices in the the background. The second column contains an introductory paragraph explaining the services of the company and who the site is suitable for. These columns change in layout with them being side by side in large devices or one on top of the other for smaller tablet and mobile. 
 
 ### Criteria area: 
-This is made up of two columns. The first includes text introductory paragraph about necessity of requirements followed by a list of eligibility criteria. The second column contains an interactive video with a tutorial on how to use the site and apply using the eligibility checker. This is a visual aid of steps and potential errors that could be encountered. The video has a set of controls such as play/pause & volume etc. These columns change in layout with them being side by side in large devices or one on top of the other for smaller tablet and mobile. 
+This is made up of two columns. The first includes text introductory paragraph about necessity of requirements followed by a list of eligibility criteria. The second column contains an interactive video with a tutorial on how to use the site and apply using the eligibility checker. This is a visual aid of steps and potential errors that could be encountered. The video has voice over narration that is an aid to users with visual impairments and otherwise an additional explanation to the steps. The video has a set of controls such as play/pause & volume etc. These columns change in layout with them being side by side in large devices or one on top of the other for smaller tablet and mobile. 
 
 ### Apply Now area:
 This area contains a form with 'Apply Now' heading, input labels with user data input fields, interactive 'Apply' button. Below the form box is the 'How to Apply' interactive button which provides users with instructions on using the checker and eligibility requirements to be a successful applicant.
@@ -309,19 +312,19 @@ Apart from containing the header and footer area the main focal point of the pag
 
 The form is aligned in the center of the page which is responsive across devices. It has a grey gradient background that starts lighter on the top and progresses to darker on the bottom. The questions/responses are presented on the top with interactive answer buttons followed by a reset option to the left and a continue button to the right. The form carries out HTML DOM manipulation through Javascript functionality. 
 
+![Screenshot of eligible scenario success & fail, background colour change upon click](documentation/images/features/eligibile-scenario.jpg)
+
 * ### Question and response paragraph area:
     The questions are stored in a javascript file. These are presented to the user in the paragraph area at the top of the form. The output text shown will change according to the answers selected in the previous question and either show another question or a response of success or fail in the application process. 
 
 * ### Answer Button:
-    The answer buttons are interactive. Intitally they are presented with a navy border and grey background. When the user hovers over an answer the background colour changes to a sand colour and the border to a deep yellow. When the pointer is removed it returns to the initial state colour. This colour change provides the user with confidence they are selecting their desired option. When the user clicks their preferred answer button it changes to a light yellow colour for further confirmation.  
+    The answer buttons are interactive. Initially they are presented with a navy border and grey background. When the user hovers over an answer the background colour changes to a sand colour and the border to a deep yellow. When the pointer is removed it returns to the initial state colour. This colour change provides the user with confidence they are selecting their desired option. When the user clicks their preferred answer button it changes to a light yellow colour for further confirmation.  
 
 * ### Continue Button:
     The continue button is an interactive feature. When hovered over it turns a dark yellow colour. When the user clicks on the continue button it checks the answer and if successful the user is presented the next question with answers to select from and continue or reset as desired. If they user selects an answer that does not match the eligibility they are presented a message indicating they do not meet/fulfil requirements. 
 
 * ### Reset Button:
     The reset button is a feature that allows the user to reset the form back to the first question. When hovered over the button it changes the background colour to the deep yellow colour. When the button is clicked and released the questions are reset.
-
-![Screenshot of eligible scenario success & fail, background colour change upon click](documentation/images/features/eligibile-scenario.jpg)
 
 ## 404 Error page (404.html):
 In order to maintain consistency on the site an error 404 page was created. This page is called upon if there is a broken link on the site or when a user enters the wrong address in the address bar. Within the page there is appropriate direction and recommendations to utilise the navigation bar at the top to return to a valid page on the site. The page contains the header and footer as per other pages as well as a Error heading, image with text error '404' on it consistent in design with the main page illustration and a brief paragraph of text advising the user they have stumbled upon a missing page either by way of broken link.  
@@ -447,7 +450,7 @@ Validator testing was carried out on all pages on the site using W3C HTML Valida
 
 * There were no errors or warnings for all html pages where code was directly input. HTML was validated on all html pages using [W3C HTML validator](https://validator.w3.org/).
 
-* There were no errors or warnings when for CSS deployed site was input. CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator).
+* There were no errors or warnings when for CSS deployed site was input. CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/).
 
 * There were no errors for CSS but a warning when code was directly input that related to the use of the font import. 
 
@@ -458,7 +461,7 @@ During the course of the creation of the website a number of bugs were highlight
 
 ## Manual Testing
 The site was tested manually such as checking links, features were working and interactivity was successful. See more in the 
-[Manual Testing Report](documentation/testing/manual-testing.pdf). A run through of data input validation testing can be seen on the [YouTube Tutorial Video](https://youtu.be/snVB-WAbZ5M) highlighting the use of  defensive programming techniques of userinput data. Other examples such of testing included but not exhaustive to the 'Apply' button functionality, if 'How to Apply' functionality opened correctly, if email apps would correctly open upon interacting with the email link in the footer. Testing to see if the telephone contact number would successfully work when hovered over in mobile devices.
+[Manual Testing Report](documentation/testing/manual-testing.pdf). A run through of data input validation testing can be seen on the [YouTube Tutorial Video](https://youtu.be/snVB-WAbZ5M) highlighting the use of  defensive programming techniques of user input data. The video also provides a visual aid working through various scenarios of errors the user may encounter with the data they input. (Go to 0.37secs) Other examples such of testing included but not exhaustive to the 'Apply' button functionality, if 'How to Apply' functionality opened correctly, if email apps would correctly open upon interacting with the email link in the footer. Testing to see if the telephone contact number would successfully work when hovered over in mobile devices.
 
 <details>
 <summary>Email & Telephone Success</summary>
@@ -479,6 +482,9 @@ Accessibility was researched in order to explore best practice for design based 
 * Consulted WAVE website for accessibility which passed without errors. See full report [Wave- all pages](documentation/testing/accesibility/wave-all-pages.pdf)
 
 ![WebaimAccessibility](documentation/testing/accesibility/wave-all-pages.png)
+
+* Colour contrast testing was performed using [Contrast Grid](https://contrast-grid.eightshapes.com/) site. 
+[Colour Contrast Grid Image](documentation/testing/accesibility/grid-contrast-colors.png)
 
 # Credits
 ## Imagery, Video & Text
